@@ -1,0 +1,16 @@
+<area shape="rect" href="$class_lib_system.html#29d13b44220c062fefaa3c549bb58aad" title="Display the details of a given book. &#160;." alt="" coords="252,157,455,184">
+<area shape="rect" href="$class_binary_search_tree.html#8af4c457dc3d7379dc19611fc99d12d8" title="Insert the given item into the search tree, creating a new node if successful, but..." alt="" coords="272,208,435,235">
+<area shape="rect" href="$class_book_type.html#5af8ffd5e9f0cf426ed51800f93f167f" title="Set the author at the given index. &#160;." alt="" coords="276,259,431,285">
+<area shape="rect" href="$class_book_type.html#192046cbee3434e804c43fa18612b8e6" title="Set the ISBN of the book. &#160;." alt="" coords="289,309,417,336">
+<area shape="rect" href="$class_book_type.html#733dfaeff9eb266ab588ddeac0ba7338" title="Set the number of authors of the book. &#160;." alt="" coords="249,360,457,387">
+<area shape="rect" href="$class_book_type.html#9ad3826b427f629f4eaabe85660a4dee" title="Set the number of copies of the book that are owned by the library. &#160;." alt="" coords="229,411,477,437">
+<area shape="rect" href="$class_book_type.html#5547474e0963f305fd1780657d453fe1" title="Set the price of the book. &#160;." alt="" coords="285,461,421,488">
+<area shape="rect" href="$class_book_type.html#dd83f185edbb892ee9bfe268a137554d" title="Set the publisher of the book. &#160;." alt="" coords="273,512,433,539">
+<area shape="rect" href="$class_book_type.html#72c65d74810dae9deab62f14cb006d78" title="Set the title of the book. &#160;." alt="" coords="289,563,417,589">
+<area shape="rect" href="$class_book_type.html#e3e51cb25cc8504657ab063d1a894c63" title="Get the author at the given index. &#160;." alt="" coords="572,5,727,32">
+<area shape="rect" href="$class_book_type.html#aff8e706d33b95d77c41e7553d9f4a9a" title="Get the ISBN of the book. &#160;." alt="" coords="585,56,713,83">
+<area shape="rect" href="$class_book_type.html#cfebb527c055ffda32ae187af7ad532e" title="Get the number of authors of the book. &#160;." alt="" coords="545,107,753,133">
+<area shape="rect" href="$class_book_type.html#e5605c63d7f7ebfaea1581355c035224" title="Get the number of copies of the book that are owned by the library. &#160;." alt="" coords="525,157,773,184">
+<area shape="rect" href="$class_book_type.html#efd446179f5c06b157c1d4089437635b" title="Get the price of the book. &#160;." alt="" coords="581,208,717,235">
+<area shape="rect" href="$class_book_type.html#d1a4be246075d525650a18c137da4e84" title="Get the publisher of the book. &#160;." alt="" coords="569,259,729,285">
+<area shape="rect" href="$class_book_type.html#c47ad9da4fe22819463968c9c292a43b" title="Get the title of the book. &#160;." alt="" coords="585,309,713,336">

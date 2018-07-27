@@ -1,0 +1,7 @@
+<area shape="rect" href="$class_lib_system.html#f00bf5a490668132905324f3121d409a" title="Returns a count of the number of books that are not currently on loan. &#160;." alt="" coords="240,5,413,32">
+<area shape="rect" href="$class_lib_system.html#8093a0542e1bfa8614541d35fea2becd" title="Given the ISBN of a book, returns true if that book is currently on loan (to any..." alt="" coords="255,56,399,83">
+<area shape="rect" href="$class_lib_system.html#b3f7177e44264cb95fef3b1b879e5d14" title="Print all books that are not currently on loan. &#160;." alt="" coords="236,107,417,133">
+<area shape="rect" href="$class_lib_system.html#449fa1ae7213e237299837c2c4559170" title="Display the menu subsystem for borrowing book(s). &#160;." alt="" coords="468,56,668,83">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="719,56,927,83">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="976,56,1085,83">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1135,56,1183,83">

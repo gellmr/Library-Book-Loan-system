@@ -1,0 +1,59 @@
+<area shape="rect" href="$class_lib_system.html#6d797d118f1d53d65831a8a02d6e6b20" title="Displays a list of all the registered users of the system. &#160;." alt="" coords="759,2387,940,2413">
+<area shape="rect" href="$class_lib_system.html#58e903d248f178acf95ca59173d7dd19" title="Display the main menu of options. &#160;." alt="" coords="187,2235,379,2261">
+<area shape="rect" href="$class_lib_system.html#7c1edbe023d49a47ffc4e1eded0ba410" title="Prints a welcom message to the screen. &#160;." alt="" coords="163,2285,403,2312">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="179,1247,387,1273">
+<area shape="rect" href="$class_lib_system.html#f5668a8f7767d77d81ef9a5e93d46005" title="Wait for a user to login. &#160;." alt="" coords="768,2336,931,2363">
+<area shape="rect" href="$class_member_type.html#bcecfc2ea8580ea5d560839cb6ce328e" title="Get whether this Member is staff or a patron of the Library. &#160;." alt="" coords="1040,2387,1213,2413">
+<area shape="rect" href="$class_member_type.html#32ae50b9a1c3bac88e355f2f74e91626" title="Get the first name of this member. &#160;." alt="" coords="1036,2285,1217,2312">
+<area shape="rect" href="$class_member_type.html#214233621270d1aaffc071fd72484fb3" title="Get the last name of this member. &#160;." alt="" coords="1036,2336,1217,2363">
+<area shape="rect" href="$class_member_type.html#754c56afdaaf759040bec720c28fd71d" title="Get the user ID of this member. &#160;." alt="" coords="1047,2133,1207,2160">
+<area shape="rect" href="$class_lib_system.html#6799a8a3fb8edac81186413ab7f0bc50" title="Initialize the library system, optionally restoring default settings. &#160;." alt="" coords="520,733,627,760">
+<area shape="rect" href="$class_lib_system.html#449fa1ae7213e237299837c2c4559170" title="Display the menu subsystem for borrowing book(s). &#160;." alt="" coords="749,968,949,995">
+<area shape="rect" href="$class_lib_system.html#cd88658483e29087bacf0e69042a4c6f" title="Show the menu subsystem for returning book(s). &#160;." alt="" coords="473,1829,673,1856">
+<area shape="rect" href="$class_lib_system.html#5fc7243261c1b6fcb958f01f289658b4" title="Show the menu subsystem for renewing book(s). &#160;." alt="" coords="496,1373,651,1400">
+<area shape="rect" href="$class_lib_system.html#0634c63d19fd9bdd39b1ce23fa4bd4d4" title="Save the current state of the system (to text files on the local hard drive). &#160;." alt="" coords="479,1247,668,1273">
+<area shape="rect" href="$class_lib_system.html#bac7b6ac66f9f76d33d6c7e22d5b9ef8" title="Show the loans for the user who is currently logged into the system. &#160;." alt="" coords="452,2108,695,2135">
+<area shape="rect" href="$class_lib_system.html#d2f6c2214557fb1829778e6e568505fd" title="Show the menu subsystem for adding new book(s) to the library. &#160;." alt="" coords="761,233,937,260">
+<area shape="rect" href="$class_lib_system.html#0c5f94e095c95a65aa67c0294002e534" title="Show the menu subsystem for adding new user(s) to the library. &#160;." alt="" coords="481,537,665,564">
+<area shape="rect" href="$class_simple_binary_tree.html#7b9c6377beeee63792bb90c22b89e776" title="Deallocate each node, set root = null. &#160;." alt="" coords="749,683,949,709">
+<area shape="rect" href="$class_book_type.html#aff8e706d33b95d77c41e7553d9f4a9a" title="Get the ISBN of the book. &#160;." alt="" coords="1340,1247,1468,1273">
+<area shape="rect" href="$class_book_type.html#c47ad9da4fe22819463968c9c292a43b" title="Get the title of the book. &#160;." alt="" coords="1340,1361,1468,1388">
+<area shape="rect" href="$class_binary_search_tree.html#8af4c457dc3d7379dc19611fc99d12d8" title="Insert the given item into the search tree, creating a new node if successful, but..." alt="" coords="1045,563,1208,589">
+<area shape="rect" href="$class_books_loader.html#c2dc70bfdda7cfe59e5c9ef07075818f" title="Load a list of books from a text file. &#160;Returns a vector of BookType objects." alt="" coords="745,169,953,196">
+<area shape="rect" href="$class_loans_loader.html#f830fe51a782a161a6ade4f4cddc04d1" title="Load a vector of loans from a text file. ." alt="" coords="767,759,932,785">
+<area shape="rect" href="$class_members_loader.html#c164ca314ad07125efec144063cdfdcf" title="Load a list of users from a text file. &#160;Returns a vector of MemberType objects." alt="" coords="757,461,941,488">
+<area shape="rect" href="$class_simple_binary_tree.html#5575f57d836005742bf8fb6b1e3ec358" title="Destroy the binary tree to which p points. &#160;." alt="" coords="1040,613,1213,640">
+<area shape="rect" href="$class_book_type.html#5af8ffd5e9f0cf426ed51800f93f167f" title="Set the author at the given index. &#160;." alt="" coords="1049,107,1204,133">
+<area shape="rect" href="$class_book_type.html#192046cbee3434e804c43fa18612b8e6" title="Set the ISBN of the book. &#160;." alt="" coords="1063,157,1191,184">
+<area shape="rect" href="$class_book_type.html#733dfaeff9eb266ab588ddeac0ba7338" title="Set the number of authors of the book. &#160;." alt="" coords="1023,208,1231,235">
+<area shape="rect" href="$class_book_type.html#9ad3826b427f629f4eaabe85660a4dee" title="Set the number of copies of the book that are owned by the library. &#160;." alt="" coords="1003,259,1251,285">
+<area shape="rect" href="$class_book_type.html#5547474e0963f305fd1780657d453fe1" title="Set the price of the book. &#160;." alt="" coords="1059,309,1195,336">
+<area shape="rect" href="$class_book_type.html#dd83f185edbb892ee9bfe268a137554d" title="Set the publisher of the book. &#160;." alt="" coords="1047,5,1207,32">
+<area shape="rect" href="$class_book_type.html#72c65d74810dae9deab62f14cb006d78" title="Set the title of the book. &#160;." alt="" coords="1063,56,1191,83">
+<area shape="rect" href="$class_book_loan.html#d7ae23dd0141f2eff5e5879b2209fe7e" title="Provide the ISBN of the book that is loaned. &#160;." alt="" coords="1044,765,1209,792">
+<area shape="rect" href="$class_book_loan.html#a4a6198c49f0d5622c91deb9416ef215" title="Set date the book was borrowed. &#160;." alt="" coords="1033,917,1220,944">
+<area shape="rect" href="$class_book_loan.html#ddea27c4f0f877c2ea51ef0dc0e63fa8" title="Set the date the book is due back. &#160;." alt="" coords="1049,816,1204,843">
+<area shape="rect" href="$class_date.html#88b572a29344da4c82c1c7f21422d205" title="Set the month (1 &#45; 12) ." alt="" coords="1348,917,1460,944">
+<area shape="rect" href="$class_book_loan.html#81a395a8d0a6348310a6cd7876770a8d" title="Provide the ID of the patron who borrowed the book. &#160;." alt="" coords="1051,715,1203,741">
+<area shape="rect" href="$class_member_type.html#f7055e4911402871e01bab6f1127af5a" title="Set whether this Member is staff or a patron of the Library. &#160;." alt="" coords="1040,360,1213,387">
+<area shape="rect" href="$class_member_type.html#d0e52304e545afd89fce9e2a51743357" title="Set the first name of this Member. &#160;." alt="" coords="1036,411,1217,437">
+<area shape="rect" href="$class_member_type.html#e233351ae0e357aa5e934d25e7e0fb5c" title="Set the last name of this Member. &#160;." alt="" coords="1036,461,1217,488">
+<area shape="rect" href="$class_member_type.html#f9f147795927b0ae56239b722ee42a68" title="Set the user ID of this Member. &#160;." alt="" coords="1047,512,1207,539">
+<area shape="rect" href="$class_lib_system.html#f00bf5a490668132905324f3121d409a" title="Returns a count of the number of books that are not currently on loan. &#160;." alt="" coords="1040,1120,1213,1147">
+<area shape="rect" href="$class_date.html#2f2c1f3c4502cf01991dc0fe2e16e343" title="Get the month (1 &#45; 12) ." alt="" coords="1071,1373,1183,1400">
+<area shape="rect" href="$class_lib_system.html#8093a0542e1bfa8614541d35fea2becd" title="Given the ISBN of a book, returns true if that book is currently on loan (to any..." alt="" coords="1055,1323,1199,1349">
+<area shape="rect" href="$class_lib_system.html#b3f7177e44264cb95fef3b1b879e5d14" title="Print all books that are not currently on loan. &#160;." alt="" coords="1036,1171,1217,1197">
+<area shape="rect" href="$class_lib_system.html#6bec5a27e97c20d85f28377a91bd4622" title="Set the given date to today&#39;s date. &#160;." alt="" coords="1048,968,1205,995">
+<area shape="rect" href="$class_binary_search_tree.html#600738314273351241d5bc243e98453b" title="Perform an in&#45;order traversal of the tree, outputting its contents to the given vector..." alt="" coords="1300,1120,1508,1147">
+<area shape="rect" href="$class_binary_search_tree.html#fcb995deec5a206a39563ce9c342356b" title="Search the binary search tree, using the given search key (long), returns true if..." alt="" coords="1299,1469,1509,1496">
+<area shape="rect" href="$class_binary_search_tree.html#86b16611af622440db297c8e073ac0c9" title="If a node with the same data as the given item is found, it is deleted from the binary..." alt="" coords="751,1880,948,1907">
+<area shape="rect" href="$class_lib_system.html#29d13b44220c062fefaa3c549bb58aad" title="Display the details of a given book. &#160;." alt="" coords="1025,1475,1228,1501">
+<area shape="rect" href="$class_lib_system.html#5467d73421af78ca68adb4850b6dee16" title="Show the details of a given loan. &#160;." alt="" coords="749,1627,949,1653">
+<area shape="rect" href="$class_book_loan.html#56413b7fd297ca954a44e8dc68bbf05b" title="Get the ISBN of the book that is loaned. &#160;." alt="" coords="1044,1627,1209,1653">
+<area shape="rect" href="$class_binary_search_tree.html#386843c0cda9b8b70a9132d0eae0e41e" title="Get the value of the node found using the given search key (long). &#160;." alt="" coords="1020,1576,1233,1603">
+<area shape="rect" href="$class_book_loan.html#af42c32ad7861f51e167a80b49b2cce1" title="Get the ID of the patron who borrowed the book. &#160;." alt="" coords="1051,1728,1203,1755">
+<area shape="rect" href="$class_lib_system.html#0a2b403c0178f3c824cdde221f3f1ea2" title="Given a loan object, renew its borrowed / due dates. &#160;." alt="" coords="757,1019,941,1045">
+<area shape="rect" href="$class_books_loader.html#8e767cd96d1eb842b5fb1d5e7e70cda1" title="Save a list of books to a text file. &#160;Accepts a vector of BookType objects." alt="" coords="1023,1272,1231,1299">
+<area shape="rect" href="$class_loans_loader.html#cbb37bc3ef9ab34d5c88cc771a6f5a11" title="Save a vector of loans to a text file. ." alt="" coords="767,1424,932,1451">
+<area shape="rect" href="$class_members_loader.html#8ba3163149e4ca6dc4f6c6e74a341db1" title="Save a list of users to a text file. &#160;Accepts a vector of MemberType objects." alt="" coords="757,2285,941,2312">
+<area shape="rect" href="$class_lib_system.html#ca84647fc0e0b81b7c82e477219b0612" title="Returns true if the given user ID matches an existing user record. &#160;." alt="" coords="773,1677,925,1704">

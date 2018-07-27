@@ -1,0 +1,6 @@
+<area shape="rect" href="$class_member_type.html#f7055e4911402871e01bab6f1127af5a" title="Set whether this Member is staff or a patron of the Library. &#160;." alt="" coords="243,5,416,32">
+<area shape="rect" href="$class_member_type.html#d0e52304e545afd89fce9e2a51743357" title="Set the first name of this Member. &#160;." alt="" coords="239,56,420,83">
+<area shape="rect" href="$class_member_type.html#e233351ae0e357aa5e934d25e7e0fb5c" title="Set the last name of this Member. &#160;." alt="" coords="239,107,420,133">
+<area shape="rect" href="$class_member_type.html#f9f147795927b0ae56239b722ee42a68" title="Set the user ID of this Member. &#160;." alt="" coords="249,157,409,184">
+<area shape="rect" href="$class_lib_system.html#ca84647fc0e0b81b7c82e477219b0612" title="Returns true if the given user ID matches an existing user record. &#160;." alt="" coords="253,208,405,235">
+<area shape="rect" href="$class_member_type.html#754c56afdaaf759040bec720c28fd71d" title="Get the user ID of this member. &#160;." alt="" coords="469,208,629,235">

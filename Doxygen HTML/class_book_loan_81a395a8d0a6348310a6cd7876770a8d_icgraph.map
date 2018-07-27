@@ -1,0 +1,9 @@
+<area shape="rect" href="$class_book_loan.html#f74985c11c53371dcce6dee819573cfe" title="Copy method. &#160;." alt="" coords="251,56,368,83">
+<area shape="rect" href="$class_loans_loader.html#f830fe51a782a161a6ade4f4cddc04d1" title="Load a vector of loans from a text file. ." alt="" coords="227,107,392,133">
+<area shape="rect" href="$class_lib_system.html#449fa1ae7213e237299837c2c4559170" title="Display the menu subsystem for borrowing book(s). &#160;." alt="" coords="209,157,409,184">
+<area shape="rect" href="$class_book_loan.html#b730541e7fc5e529dc5c264f050f1bdc" title="Copy constructor. &#160;." alt="" coords="460,5,604,32">
+<area shape="rect" href="$class_book_loan.html#04d03e4648e309b3fb4a9667eebf9b99" title="Assignment op override. &#160;." alt="" coords="461,56,603,83">
+<area shape="rect" href="$class_lib_system.html#6799a8a3fb8edac81186413ab7f0bc50" title="Initialize the library system, optionally restoring default settings. &#160;." alt="" coords="479,107,585,133">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1071,132,1119,159">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="655,157,863,184">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="912,157,1021,184">

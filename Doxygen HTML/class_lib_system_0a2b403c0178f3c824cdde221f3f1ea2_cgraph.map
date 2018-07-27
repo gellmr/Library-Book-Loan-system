@@ -1,0 +1,10 @@
+<area shape="rect" href="$class_book_loan.html#56413b7fd297ca954a44e8dc68bbf05b" title="Get the ISBN of the book that is loaned. &#160;." alt="" coords="257,5,423,32">
+<area shape="rect" href="$class_date.html#2f2c1f3c4502cf01991dc0fe2e16e343" title="Get the month (1 &#45; 12) ." alt="" coords="284,56,396,83">
+<area shape="rect" href="$class_binary_search_tree.html#98ccc715c0fa980c6669940d7e629c85" title="Search for a node matching the given key (long), and replace it&#39;s data with the..." alt="" coords="239,107,441,133">
+<area shape="rect" href="$class_book_loan.html#a4a6198c49f0d5622c91deb9416ef215" title="Set date the book was borrowed. &#160;." alt="" coords="247,157,433,184">
+<area shape="rect" href="$class_book_loan.html#ddea27c4f0f877c2ea51ef0dc0e63fa8" title="Set the date the book is due back. &#160;." alt="" coords="263,208,417,235">
+<area shape="rect" href="$class_date.html#88b572a29344da4c82c1c7f21422d205" title="Set the month (1 &#45; 12) ." alt="" coords="509,259,621,285">
+<area shape="rect" href="$class_lib_system.html#6bec5a27e97c20d85f28377a91bd4622" title="Set the given date to today&#39;s date. &#160;." alt="" coords="261,309,419,336">
+<area shape="rect" href="$class_date.html#1d0a6b65d364b83734014fe228ae669b" title="Check if the day of the month is valid for the given month ." alt="" coords="689,284,807,311">
+<area shape="rect" href="$class_date.html#c9573457018a83e2f67674a93de329a6" title="Set the day of the month (1 &#45; 31) ." alt="" coords="492,309,639,336">
+<area shape="rect" href="$class_date.html#3178b230142da361966f28a86345d654" title="Set the year ." alt="" coords="513,360,617,387">

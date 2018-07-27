@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="h\Date.h" open="1" top="0" tabpos="2">
+		<Cursor position="1136" topLine="105" />
+	</File>
+	<File name="source\Date.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="2384" topLine="130" />
+	</File>
+	<File name="testDate.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="8992" topLine="489" />
+	</File>
+</CodeBlocks_layout_file>

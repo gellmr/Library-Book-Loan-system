@@ -1,0 +1,9 @@
+<area shape="rect" href="$class_member_type.html#8672eac98e3852ae8b40459a56eaaf3c" title="Copy method. &#160;." alt="" coords="239,56,372,83">
+<area shape="rect" href="$class_members_loader.html#c164ca314ad07125efec144063cdfdcf" title="Load a list of users from a text file. &#160;Returns a vector of MemberType objects." alt="" coords="213,107,397,133">
+<area shape="rect" href="$class_lib_system.html#0c5f94e095c95a65aa67c0294002e534" title="Show the menu subsystem for adding new user(s) to the library. &#160;." alt="" coords="213,157,397,184">
+<area shape="rect" href="$class_member_type.html#bbddffc4c621a50b65098946b8ab7814" title="Copy constructor. &#160;." alt="" coords="447,5,625,32">
+<area shape="rect" href="$class_member_type.html#265798f0682ab786402d5a7c2f4b41f8" title="Assignment op override. &#160;." alt="" coords="456,56,616,83">
+<area shape="rect" href="$class_lib_system.html#6799a8a3fb8edac81186413ab7f0bc50" title="Initialize the library system, optionally restoring default settings. &#160;." alt="" coords="483,107,589,133">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1092,132,1140,159">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="676,157,884,184">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="933,157,1043,184">

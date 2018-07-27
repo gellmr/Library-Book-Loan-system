@@ -1,0 +1,9 @@
+<area shape="rect" href="$class_book_type.html#398bd9cec7f993a346431e2df8802a34" title="Deallocates and sets authors = 0 (NULL). &#160;." alt="" coords="215,5,375,32">
+<area shape="rect" href="$class_book_type.html#e3e51cb25cc8504657ab063d1a894c63" title="Get the author at the given index. &#160;." alt="" coords="217,56,372,83">
+<area shape="rect" href="$class_book_type.html#aff8e706d33b95d77c41e7553d9f4a9a" title="Get the ISBN of the book. &#160;." alt="" coords="231,107,359,133">
+<area shape="rect" href="$class_book_type.html#cfebb527c055ffda32ae187af7ad532e" title="Get the number of authors of the book. &#160;." alt="" coords="191,157,399,184">
+<area shape="rect" href="$class_book_type.html#e5605c63d7f7ebfaea1581355c035224" title="Get the number of copies of the book that are owned by the library. &#160;." alt="" coords="171,208,419,235">
+<area shape="rect" href="$class_book_type.html#efd446179f5c06b157c1d4089437635b" title="Get the price of the book. &#160;." alt="" coords="227,259,363,285">
+<area shape="rect" href="$class_book_type.html#d1a4be246075d525650a18c137da4e84" title="Get the publisher of the book. &#160;." alt="" coords="215,309,375,336">
+<area shape="rect" href="$class_book_type.html#c47ad9da4fe22819463968c9c292a43b" title="Get the title of the book. &#160;." alt="" coords="231,360,359,387">
+<area shape="rect" href="$class_book_type.html#5af8ffd5e9f0cf426ed51800f93f167f" title="Set the author at the given index. &#160;." alt="" coords="217,411,372,437">

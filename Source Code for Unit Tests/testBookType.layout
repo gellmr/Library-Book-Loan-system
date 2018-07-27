@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="h\BookType.h" open="1" top="0" tabpos="2">
+		<Cursor position="2113" topLine="66" />
+	</File>
+	<File name="h\BooksLoader.h" open="1" top="0" tabpos="3">
+		<Cursor position="1090" topLine="34" />
+	</File>
+	<File name="source\BookType.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="6133" topLine="281" />
+	</File>
+	<File name="source\BooksLoader.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="5623" topLine="236" />
+	</File>
+	<File name="testBookType.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="214" topLine="210" />
+	</File>
+</CodeBlocks_layout_file>

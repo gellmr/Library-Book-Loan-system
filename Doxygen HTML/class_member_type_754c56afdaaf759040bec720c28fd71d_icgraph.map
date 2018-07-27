@@ -1,0 +1,17 @@
+<area shape="rect" href="$class_member_type.html#8672eac98e3852ae8b40459a56eaaf3c" title="Copy method. &#160;." alt="" coords="269,56,403,83">
+<area shape="rect" href="$class_lib_system.html#6d797d118f1d53d65831a8a02d6e6b20" title="Displays a list of all the registered users of the system. &#160;." alt="" coords="772,183,953,209">
+<area shape="rect" href="$class_member_type.html#435d1cf94d57b3611e77bddbd9241c4b" title="Equality Comparison operator override. &#160;." alt="" coords="252,157,420,184">
+<area shape="rect" href="$class_lib_system.html#449fa1ae7213e237299837c2c4559170" title="Display the menu subsystem for borrowing book(s). &#160;." alt="" coords="508,208,708,235">
+<area shape="rect" href="$class_lib_system.html#cd88658483e29087bacf0e69042a4c6f" title="Show the menu subsystem for returning book(s). &#160;." alt="" coords="508,259,708,285">
+<area shape="rect" href="$class_lib_system.html#5fc7243261c1b6fcb958f01f289658b4" title="Show the menu subsystem for renewing book(s). &#160;." alt="" coords="531,309,685,336">
+<area shape="rect" href="$class_members_loader.html#8ba3163149e4ca6dc4f6c6e74a341db1" title="Save a list of users to a text file. &#160;Accepts a vector of MemberType objects." alt="" coords="244,360,428,387">
+<area shape="rect" href="$class_lib_system.html#bac7b6ac66f9f76d33d6c7e22d5b9ef8" title="Show the loans for the user who is currently logged into the system. &#160;." alt="" coords="215,411,457,437">
+<area shape="rect" href="$class_lib_system.html#ca84647fc0e0b81b7c82e477219b0612" title="Returns true if the given user ID matches an existing user record. &#160;." alt="" coords="260,461,412,488">
+<area shape="rect" href="$class_lib_system.html#f5668a8f7767d77d81ef9a5e93d46005" title="Wait for a user to login. &#160;." alt="" coords="781,436,944,463">
+<area shape="rect" href="$class_member_type.html#bbddffc4c621a50b65098946b8ab7814" title="Copy constructor. &#160;." alt="" coords="519,5,697,32">
+<area shape="rect" href="$class_member_type.html#265798f0682ab786402d5a7c2f4b41f8" title="Assignment op override. &#160;." alt="" coords="528,56,688,83">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="1016,335,1125,361">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1175,335,1223,361">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="759,335,967,361">
+<area shape="rect" href="$class_lib_system.html#0634c63d19fd9bdd39b1ce23fa4bd4d4" title="Save the current state of the system (to text files on the local hard drive). &#160;." alt="" coords="513,360,703,387">
+<area shape="rect" href="$class_lib_system.html#0c5f94e095c95a65aa67c0294002e534" title="Show the menu subsystem for adding new user(s) to the library. &#160;." alt="" coords="516,461,700,488">

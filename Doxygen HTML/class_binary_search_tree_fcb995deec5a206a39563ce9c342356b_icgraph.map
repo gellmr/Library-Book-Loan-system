@@ -1,0 +1,10 @@
+<area shape="rect" href="$class_lib_system.html#f00bf5a490668132905324f3121d409a" title="Returns a count of the number of books that are not currently on loan. &#160;." alt="" coords="269,5,443,32">
+<area shape="rect" href="$class_lib_system.html#8093a0542e1bfa8614541d35fea2becd" title="Given the ISBN of a book, returns true if that book is currently on loan (to any..." alt="" coords="284,56,428,83">
+<area shape="rect" href="$class_lib_system.html#b3f7177e44264cb95fef3b1b879e5d14" title="Print all books that are not currently on loan. &#160;." alt="" coords="265,107,447,133">
+<area shape="rect" href="$class_lib_system.html#cd88658483e29087bacf0e69042a4c6f" title="Show the menu subsystem for returning book(s). &#160;." alt="" coords="519,157,719,184">
+<area shape="rect" href="$class_lib_system.html#5fc7243261c1b6fcb958f01f289658b4" title="Show the menu subsystem for renewing book(s). &#160;." alt="" coords="541,208,696,235">
+<area shape="rect" href="$class_lib_system.html#bac7b6ac66f9f76d33d6c7e22d5b9ef8" title="Show the loans for the user who is currently logged into the system. &#160;." alt="" coords="497,259,740,285">
+<area shape="rect" href="$class_lib_system.html#449fa1ae7213e237299837c2c4559170" title="Display the menu subsystem for borrowing book(s). &#160;." alt="" coords="519,81,719,108">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="791,183,999,209">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="1048,183,1157,209">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1207,183,1255,209">

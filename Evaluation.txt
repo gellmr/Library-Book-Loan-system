@@ -1,0 +1,102 @@
+
+Testing of Classes:
+
+
+
+Unfortunately not all classes have been tested.
+
+The following classes have been subject to partial testing:
+
+(1) BinarySearchTree<T>
+(2) BookLoan
+(3) BookType
+(4) Date
+(5) MemberType
+
+The following classes have NOT been tested!
+
+(6)  BooksLoader
+(7)  DataManip
+(9)  LibSystem
+(10) LoansLoader
+(11) MembersLoader
+(12) ReadCsv
+
+The following classes are abstract and so cannot be directly tested,
+although some of their methods, eg getKey() have been tested in derived
+classes like BookType and BookLoan.
+
+(13) Searchable
+(14) SimpleBinaryTree<T>
+
+
+
+
+
+
+-----------------------------------------------------------------------------
+
+Summary of Unit Testing:
+
+
+
+BinarySearchTree<T>::GetNodeValue() fails it's unit test... I believe this is a
+
+problem with the BookType assignment operator override.
+
+More thorough unit testing of this class is required.
+
+
+
+
+The BookType assignment operator override unit test PASSES when I set
+
+one of the authors to a different value, in a comparison of (otherwise identical) objects.
+
+This should make the test fail, but it still passes.  So there is something wrong.
+
+But it is not preventing the main program from running.
+
+
+All other tests passed ok.
+
+
+
+
+
+
+-----------------------------------------------------------------------------
+
+THE EXECUTABLE PROGRAM
+
+
+
+Things that work:
+
+	
+The required menu functions all work, and the system saves its data to text
+
+files when it is shut down, so that next time the program starts, the data is loaded.
+
+
+
+
+Things that do not work:
+
+
+Borrowing any given book will make all other copies of that book unavailable,
+
+as though ALL copies had been borrowed. This is not a bug, but a design fault:
+
+there is no facility to check out a single volume: cardinality of BookLoans to
+
+BookTypes is 1..1
+
+Instead - there should be zero-or-many BookLoans for any given BookType.
+
+This would need to be fixed in future versions of the program.
+
+
+
+
+

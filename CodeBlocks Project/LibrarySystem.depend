@@ -1,0 +1,212 @@
+# depslib dependency file v1.0
+1304248422 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\binaryinttree.cpp
+	<iostream>
+	"../h/BinaryIntTree.h"
+
+1304228468 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\binaryinttree.h
+
+1305595175 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\binarysearchtree.cpp
+	<iostream>
+	<fstream>
+	<deque>
+	<iomanip>
+	<sstream>
+	<string>
+	<math.h>
+	"../h/SimpleBinaryTree.h"
+	"../h/BinarySearchTree.h"
+
+1305776265 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\binarysearchtree.h
+	<vector>
+	<fstream>
+	<iostream>
+	<deque>
+	<iomanip>
+	<sstream>
+	<string>
+	"../h/SimpleBinaryTree.h"
+	"../h/Searchable.h"
+	<math.h>
+
+1305302146 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\loader.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+	<vector>
+	"../h/Loader.h"
+	"../h/BookType.h"
+
+1305298750 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\loader.h
+	<string>
+	<fstream>
+	<vector>
+	"../h/BookType.h"
+
+1305804947 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\booktype.h
+	<string>
+	"../h/Searchable.h"
+
+1305778660 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\booktype.cpp
+	"../h/BookType.h"
+	<fstream>
+	<string>
+	<sstream>
+
+1305773477 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\simplebinarytree.h
+	<iostream>
+
+1305552526 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\simplebinarytree.cpp
+	<iostream>
+	"../h/SimpleBinaryTree.h"
+
+1305779988 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\booksloader.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<iomanip>
+	<string>
+	<sstream>
+	<vector>
+	<fstream>
+	<algorithm>
+	"../h/DataManip.h"
+	"../h/BookType.h"
+	"../h/ReadCsv.h"
+	"../h/BooksLoader.h"
+
+1305773184 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\booksloader.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	"../h/BookType.h"
+
+1305780702 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\main.cpp
+	"h/LibSystem.h"
+
+1305780560 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\readcsv.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	<vector>
+	"../h/ReadCsv.h"
+
+1305775749 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\readcsv.h
+	<string>
+	<iostream>
+	<vector>
+
+1305780430 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\membertype.cpp
+	"../h/MemberType.h"
+	<fstream>
+	<string>
+
+1305775729 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\membertype.h
+	<string>
+
+1305780092 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\membersloader.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<iomanip>
+	<string>
+	<sstream>
+	<vector>
+	<fstream>
+	<algorithm>
+	"../h/DataManip.h"
+	"../h/MemberType.h"
+	"../h/ReadCsv.h"
+	"../h/MembersLoader.h"
+
+1305775740 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\membersloader.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	"../h/MemberType.h"
+
+1305773883 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\datamanip.h
+	<string>
+
+1305773553 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\datamanip.cpp
+	<string>
+	"../h/DataManip.h"
+
+1305773564 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\date.cpp
+	<iostream>
+	<string>
+	"../h/Date.h"
+
+1305550918 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\date.h
+	<string>
+
+1305777607 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\bookloan.cpp
+	"../h/BookLoan.h"
+	<fstream>
+	<string>
+
+1305776522 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\bookloan.h
+	"../h/Searchable.h"
+	"../h/BookType.h"
+	"../h/Date.h"
+	<string>
+
+1305775714 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\loansloader.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	"../h/BookLoan.h"
+
+1305779890 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\loansloader.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<iomanip>
+	<string>
+	<sstream>
+	<vector>
+	<fstream>
+	<algorithm>
+	"../h/DataManip.h"
+	"../h/ReadCsv.h"
+	"../h/LoansLoader.h"
+	"../h/BookLoan.h"
+
+1305779451 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\libsystem.h
+	<string>
+	<vector>
+	<map>
+	"../h/BookType.h"
+	"../h/BookLoan.h"
+	"../h/MemberType.h"
+	"../h/BinarySearchTree.h"
+
+1305779668 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\libsystem.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<sstream>
+	<fstream>
+	<vector>
+	<time.h>
+	<map>
+	"../h/LibSystem.h"
+	"../h/BookType.h"
+	"../h/BookLoan.h"
+	"../h/BooksLoader.h"
+	"../h/LoansLoader.h"
+	"../h/MembersLoader.h"
+	"../h/MemberType.h"
+	"../h/SimpleBinaryTree.h"
+	"../h/BinarySearchTree.h"
+
+1305775757 c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\h\searchable.h
+
+1305780668 source:c:\users\mike\dropbox\uni\ict209\assignment 2\assignmenttwo\librarysystem\source\searchable.cpp
+	<string>
+	"../h/Searchable.h"
+

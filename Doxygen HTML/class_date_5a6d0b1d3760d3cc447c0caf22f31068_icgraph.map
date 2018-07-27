@@ -1,0 +1,13 @@
+<area shape="rect" href="$class_date.html#48f9391f4e563f90d192c4d74faf947f" title="Copy Constructor ." alt="" coords="245,5,328,32">
+<area shape="rect" href="$class_lib_system.html#4bef65115faa1279fc34af8921b17b67" title="Display the given date. &#160;." alt="" coords="207,56,367,83">
+<area shape="rect" href="$class_date.html#f3f05ad710a8bc39fb52f1b8a0cb753d" title="Override for the assignment operator ." alt="" coords="231,107,343,133">
+<area shape="rect" href="$class_date.html#b3b88e4f9dea05652cb0b71ab3bb70e0" title="Override for the equality comparison operator ." alt="" coords="227,157,347,184">
+<area shape="rect" href="$class_loans_loader.html#cbb37bc3ef9ab34d5c88cc771a6f5a11" title="Save a vector of loans to a text file. ." alt="" coords="204,208,369,235">
+<area shape="rect" href="$class_lib_system.html#5467d73421af78ca68adb4850b6dee16" title="Show the details of a given loan. &#160;." alt="" coords="419,60,619,87">
+<area shape="rect" href="$class_lib_system.html#cd88658483e29087bacf0e69042a4c6f" title="Show the menu subsystem for returning book(s). &#160;." alt="" coords="689,21,889,48">
+<area shape="rect" href="$class_lib_system.html#5fc7243261c1b6fcb958f01f289658b4" title="Show the menu subsystem for renewing book(s). &#160;." alt="" coords="712,72,867,99">
+<area shape="rect" href="$class_lib_system.html#bac7b6ac66f9f76d33d6c7e22d5b9ef8" title="Show the loans for the user who is currently logged into the system. &#160;." alt="" coords="668,123,911,149">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="961,97,1169,124">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="1219,97,1328,124">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1377,97,1425,124">
+<area shape="rect" href="$class_lib_system.html#0634c63d19fd9bdd39b1ce23fa4bd4d4" title="Save the current state of the system (to text files on the local hard drive). &#160;." alt="" coords="424,183,613,209">

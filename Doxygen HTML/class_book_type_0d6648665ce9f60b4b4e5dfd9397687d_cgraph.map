@@ -1,0 +1,7 @@
+<area shape="rect" href="$class_book_type.html#e3e51cb25cc8504657ab063d1a894c63" title="Get the author at the given index. &#160;." alt="" coords="252,5,407,32">
+<area shape="rect" href="$class_book_type.html#aff8e706d33b95d77c41e7553d9f4a9a" title="Get the ISBN of the book. &#160;." alt="" coords="265,56,393,83">
+<area shape="rect" href="$class_book_type.html#cfebb527c055ffda32ae187af7ad532e" title="Get the number of authors of the book. &#160;." alt="" coords="225,107,433,133">
+<area shape="rect" href="$class_book_type.html#e5605c63d7f7ebfaea1581355c035224" title="Get the number of copies of the book that are owned by the library. &#160;." alt="" coords="205,157,453,184">
+<area shape="rect" href="$class_book_type.html#efd446179f5c06b157c1d4089437635b" title="Get the price of the book. &#160;." alt="" coords="261,208,397,235">
+<area shape="rect" href="$class_book_type.html#d1a4be246075d525650a18c137da4e84" title="Get the publisher of the book. &#160;." alt="" coords="249,259,409,285">
+<area shape="rect" href="$class_book_type.html#c47ad9da4fe22819463968c9c292a43b" title="Get the title of the book. &#160;." alt="" coords="265,309,393,336">

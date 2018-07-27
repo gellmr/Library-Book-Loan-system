@@ -1,0 +1,10 @@
+<area shape="rect" href="$class_loans_loader.html#f830fe51a782a161a6ade4f4cddc04d1" title="Load a vector of loans from a text file. ." alt="" coords="204,5,369,32">
+<area shape="rect" href="$class_date.html#f3f05ad710a8bc39fb52f1b8a0cb753d" title="Override for the assignment operator ." alt="" coords="231,56,343,83">
+<area shape="rect" href="$class_lib_system.html#6bec5a27e97c20d85f28377a91bd4622" title="Set the given date to today&#39;s date. &#160;." alt="" coords="208,107,365,133">
+<area shape="rect" href="$class_lib_system.html#6799a8a3fb8edac81186413ab7f0bc50" title="Initialize the library system, optionally restoring default settings. &#160;." alt="" coords="695,5,801,32">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1292,31,1340,57">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="876,56,1084,83">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="1133,56,1243,83">
+<area shape="rect" href="$class_lib_system.html#449fa1ae7213e237299837c2c4559170" title="Display the menu subsystem for borrowing book(s). &#160;." alt="" coords="420,56,620,83">
+<area shape="rect" href="$class_lib_system.html#0a2b403c0178f3c824cdde221f3f1ea2" title="Given a loan object, renew its borrowed / due dates. &#160;." alt="" coords="428,107,612,133">
+<area shape="rect" href="$class_lib_system.html#5fc7243261c1b6fcb958f01f289658b4" title="Show the menu subsystem for renewing book(s). &#160;." alt="" coords="671,107,825,133">

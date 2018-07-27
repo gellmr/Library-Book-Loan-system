@@ -1,0 +1,23 @@
+<area shape="rect" href="$class_lib_system.html#f00bf5a490668132905324f3121d409a" title="Returns a count of the number of books that are not currently on loan. &#160;." alt="" coords="203,157,376,184">
+<area shape="rect" href="$class_book_type.html#804e9ada584504ceac63d7eeeb9f59cc" title="Copy method. &#160;." alt="" coords="231,107,348,133">
+<area shape="rect" href="$class_lib_system.html#29d13b44220c062fefaa3c549bb58aad" title="Display the details of a given book. &#160;." alt="" coords="188,259,391,285">
+<area shape="rect" href="$class_book_type.html#b7771d152374beffc5aecf82676c5081" title="Get the search key of this searchable object. &#160;." alt="" coords="225,208,353,235">
+<area shape="rect" href="$class_lib_system.html#6799a8a3fb8edac81186413ab7f0bc50" title="Initialize the library system, optionally restoring default settings. &#160;." alt="" coords="760,411,867,437">
+<area shape="rect" href="$class_book_type.html#80f4cb05f3a94443d0c579c4954302e3" title="Less than comparison operator override. &#160;." alt="" coords="219,309,360,336">
+<area shape="rect" href="$_book_type_8cpp.html#5d3c5781ee9003c72eb0f79561555152" title="operator\&lt;\&lt;" alt="" coords="248,360,331,387">
+<area shape="rect" href="$class_book_type.html#0d6648665ce9f60b4b4e5dfd9397687d" title="Equality op override. &#160;." alt="" coords="215,411,364,437">
+<area shape="rect" href="$class_book_type.html#fa172e951fb3b0442d4874f5f6e55465" title="Greater than comparison operator override. &#160;." alt="" coords="219,461,360,488">
+<area shape="rect" href="$class_books_loader.html#8e767cd96d1eb842b5fb1d5e7e70cda1" title="Save a list of books to a text file. &#160;Accepts a vector of BookType objects." alt="" coords="185,31,393,57">
+<area shape="rect" href="$class_book_type.html#556fd79e2c0388a87e8e019d9cb87e98" title="Produce a string from this book&#39;s data members. &#160;." alt="" coords="224,563,355,589">
+<area shape="rect" href="$class_lib_system.html#449fa1ae7213e237299837c2c4559170" title="Display the menu subsystem for borrowing book(s). &#160;." alt="" coords="713,157,913,184">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="985,284,1193,311">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="1243,323,1352,349">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1401,361,1449,388">
+<area shape="rect" href="$class_book_type.html#498ce338986e93209bde86e6aecac7ee" title="Copy constructor. &#160;." alt="" coords="471,107,615,133">
+<area shape="rect" href="$class_book_type.html#2d275f3deaa11f047df614fef33bab39" title="Assignment op override. &#160;." alt="" coords="472,56,613,83">
+<area shape="rect" href="$class_lib_system.html#5467d73421af78ca68adb4850b6dee16" title="Show the details of a given loan. &#160;." alt="" coords="443,309,643,336">
+<area shape="rect" href="$class_lib_system.html#cd88658483e29087bacf0e69042a4c6f" title="Show the menu subsystem for returning book(s). &#160;." alt="" coords="713,259,913,285">
+<area shape="rect" href="$class_lib_system.html#5fc7243261c1b6fcb958f01f289658b4" title="Show the menu subsystem for renewing book(s). &#160;." alt="" coords="736,360,891,387">
+<area shape="rect" href="$class_lib_system.html#d2f6c2214557fb1829778e6e568505fd" title="Show the menu subsystem for adding new book(s) to the library. &#160;." alt="" coords="455,208,631,235">
+<area shape="rect" href="$class_lib_system.html#bac7b6ac66f9f76d33d6c7e22d5b9ef8" title="Show the loans for the user who is currently logged into the system. &#160;." alt="" coords="692,309,935,336">
+<area shape="rect" href="$class_lib_system.html#0634c63d19fd9bdd39b1ce23fa4bd4d4" title="Save the current state of the system (to text files on the local hard drive). &#160;." alt="" coords="448,5,637,32">

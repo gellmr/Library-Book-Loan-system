@@ -1,0 +1,7 @@
+<area shape="rect" href="$class_read_csv.html#3beac06d44a303540a4aa5ed17c5d1c7" title="Read a file of csv data into a 2D vector of strings. &#160;." alt="" coords="307,5,416,32">
+<area shape="rect" href="$class_data_manip.html#c1b6e274c35c4978b0eaa6837ca64eee" title="Remove leading white space from the given string. &#160;." alt="" coords="237,56,485,83">
+<area shape="rect" href="$class_data_manip.html#2aaaf623dd58f9efa457450a6957d6ab" title="Remove trailing white space from the given string. &#160;." alt="" coords="240,107,483,133">
+<area shape="rect" href="$class_member_type.html#f7055e4911402871e01bab6f1127af5a" title="Set whether this Member is staff or a patron of the Library. &#160;." alt="" coords="275,157,448,184">
+<area shape="rect" href="$class_member_type.html#d0e52304e545afd89fce9e2a51743357" title="Set the first name of this Member. &#160;." alt="" coords="271,208,452,235">
+<area shape="rect" href="$class_member_type.html#e233351ae0e357aa5e934d25e7e0fb5c" title="Set the last name of this Member. &#160;." alt="" coords="271,259,452,285">
+<area shape="rect" href="$class_member_type.html#f9f147795927b0ae56239b722ee42a68" title="Set the user ID of this Member. &#160;." alt="" coords="281,309,441,336">

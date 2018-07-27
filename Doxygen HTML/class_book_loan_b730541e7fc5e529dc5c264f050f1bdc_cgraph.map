@@ -1,0 +1,11 @@
+<area shape="rect" href="$class_book_loan.html#f74985c11c53371dcce6dee819573cfe" title="Copy method. &#160;." alt="" coords="203,208,320,235">
+<area shape="rect" href="$class_book_loan.html#20254758f2b7e03e35adafe8ae5b4797" title="Reset method. &#160;." alt="" coords="201,335,321,361">
+<area shape="rect" href="$class_book_loan.html#56413b7fd297ca954a44e8dc68bbf05b" title="Get the ISBN of the book that is loaned. &#160;." alt="" coords="381,5,547,32">
+<area shape="rect" href="$class_book_loan.html#236b8466dfe3de11a32fc2f90123c77a" title="Get date the book was borrowed. &#160;." alt="" coords="371,56,557,83">
+<area shape="rect" href="$class_book_loan.html#dd37f13390b48f9db2f256e22c35e74b" title="Get the date the book is due back. &#160;." alt="" coords="387,107,541,133">
+<area shape="rect" href="$class_book_loan.html#af42c32ad7861f51e167a80b49b2cce1" title="Get the ID of the patron who borrowed the book. &#160;." alt="" coords="388,157,540,184">
+<area shape="rect" href="$class_book_loan.html#d7ae23dd0141f2eff5e5879b2209fe7e" title="Provide the ISBN of the book that is loaned. &#160;." alt="" coords="381,208,547,235">
+<area shape="rect" href="$class_book_loan.html#a4a6198c49f0d5622c91deb9416ef215" title="Set date the book was borrowed. &#160;." alt="" coords="371,259,557,285">
+<area shape="rect" href="$class_book_loan.html#ddea27c4f0f877c2ea51ef0dc0e63fa8" title="Set the date the book is due back. &#160;." alt="" coords="387,309,541,336">
+<area shape="rect" href="$class_book_loan.html#81a395a8d0a6348310a6cd7876770a8d" title="Provide the ID of the patron who borrowed the book. &#160;." alt="" coords="388,360,540,387">
+<area shape="rect" href="$class_date.html#fe7aa4db2953c9659cfdbca606184875" title="Reset (empty) this object ." alt="" coords="419,411,509,437">

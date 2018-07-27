@@ -1,0 +1,15 @@
+<area shape="rect" href="$class_book_type.html#804e9ada584504ceac63d7eeeb9f59cc" title="Copy method. &#160;." alt="" coords="260,56,377,83">
+<area shape="rect" href="$class_lib_system.html#29d13b44220c062fefaa3c549bb58aad" title="Display the details of a given book. &#160;." alt="" coords="217,183,420,209">
+<area shape="rect" href="$class_book_type.html#0d6648665ce9f60b4b4e5dfd9397687d" title="Equality op override. &#160;." alt="" coords="244,233,393,260">
+<area shape="rect" href="$class_books_loader.html#8e767cd96d1eb842b5fb1d5e7e70cda1" title="Save a list of books to a text file. &#160;Accepts a vector of BookType objects." alt="" coords="215,284,423,311">
+<area shape="rect" href="$class_book_type.html#498ce338986e93209bde86e6aecac7ee" title="Copy constructor. &#160;." alt="" coords="500,5,644,32">
+<area shape="rect" href="$class_book_type.html#2d275f3deaa11f047df614fef33bab39" title="Assignment op override. &#160;." alt="" coords="501,56,643,83">
+<area shape="rect" href="$class_lib_system.html#5467d73421af78ca68adb4850b6dee16" title="Show the details of a given loan. &#160;." alt="" coords="472,157,672,184">
+<area shape="rect" href="$class_lib_system.html#cd88658483e29087bacf0e69042a4c6f" title="Show the menu subsystem for returning book(s). &#160;." alt="" coords="743,107,943,133">
+<area shape="rect" href="$class_lib_system.html#5fc7243261c1b6fcb958f01f289658b4" title="Show the menu subsystem for renewing book(s). &#160;." alt="" coords="765,208,920,235">
+<area shape="rect" href="$class_lib_system.html#d2f6c2214557fb1829778e6e568505fd" title="Show the menu subsystem for adding new book(s) to the library. &#160;." alt="" coords="755,259,931,285">
+<area shape="rect" href="$class_lib_system.html#bac7b6ac66f9f76d33d6c7e22d5b9ef8" title="Show the loans for the user who is currently logged into the system. &#160;." alt="" coords="721,157,964,184">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="1015,208,1223,235">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="1272,208,1381,235">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1431,208,1479,235">
+<area shape="rect" href="$class_lib_system.html#0634c63d19fd9bdd39b1ce23fa4bd4d4" title="Save the current state of the system (to text files on the local hard drive). &#160;." alt="" coords="477,309,667,336">

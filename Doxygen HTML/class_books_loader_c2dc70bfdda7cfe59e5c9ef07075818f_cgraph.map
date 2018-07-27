@@ -1,0 +1,10 @@
+<area shape="rect" href="$class_read_csv.html#3beac06d44a303540a4aa5ed17c5d1c7" title="Read a file of csv data into a 2D vector of strings. &#160;." alt="" coords="333,5,443,32">
+<area shape="rect" href="$class_data_manip.html#c1b6e274c35c4978b0eaa6837ca64eee" title="Remove leading white space from the given string. &#160;." alt="" coords="264,56,512,83">
+<area shape="rect" href="$class_data_manip.html#2aaaf623dd58f9efa457450a6957d6ab" title="Remove trailing white space from the given string. &#160;." alt="" coords="267,107,509,133">
+<area shape="rect" href="$class_book_type.html#5af8ffd5e9f0cf426ed51800f93f167f" title="Set the author at the given index. &#160;." alt="" coords="311,157,465,184">
+<area shape="rect" href="$class_book_type.html#192046cbee3434e804c43fa18612b8e6" title="Set the ISBN of the book. &#160;." alt="" coords="324,208,452,235">
+<area shape="rect" href="$class_book_type.html#733dfaeff9eb266ab588ddeac0ba7338" title="Set the number of authors of the book. &#160;." alt="" coords="284,259,492,285">
+<area shape="rect" href="$class_book_type.html#9ad3826b427f629f4eaabe85660a4dee" title="Set the number of copies of the book that are owned by the library. &#160;." alt="" coords="264,309,512,336">
+<area shape="rect" href="$class_book_type.html#5547474e0963f305fd1780657d453fe1" title="Set the price of the book. &#160;." alt="" coords="320,360,456,387">
+<area shape="rect" href="$class_book_type.html#dd83f185edbb892ee9bfe268a137554d" title="Set the publisher of the book. &#160;." alt="" coords="308,411,468,437">
+<area shape="rect" href="$class_book_type.html#72c65d74810dae9deab62f14cb006d78" title="Set the title of the book. &#160;." alt="" coords="324,461,452,488">

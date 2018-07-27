@@ -1,0 +1,22 @@
+<area shape="rect" href="$class_binary_search_tree.html#86b16611af622440db297c8e073ac0c9" title="If a node with the same data as the given item is found, it is deleted from the binary..." alt="" coords="260,208,457,235">
+<area shape="rect" href="$class_lib_system.html#29d13b44220c062fefaa3c549bb58aad" title="Display the details of a given book. &#160;." alt="" coords="523,233,725,260">
+<area shape="rect" href="$class_lib_system.html#5467d73421af78ca68adb4850b6dee16" title="Show the details of a given loan. &#160;." alt="" coords="259,381,459,408">
+<area shape="rect" href="$class_book_loan.html#56413b7fd297ca954a44e8dc68bbf05b" title="Get the ISBN of the book that is loaned. &#160;." alt="" coords="541,284,707,311">
+<area shape="rect" href="$class_binary_search_tree.html#386843c0cda9b8b70a9132d0eae0e41e" title="Get the value of the node found using the given search key (long). &#160;." alt="" coords="517,487,731,513">
+<area shape="rect" href="$class_book_loan.html#af42c32ad7861f51e167a80b49b2cce1" title="Get the ID of the patron who borrowed the book. &#160;." alt="" coords="548,537,700,564">
+<area shape="rect" href="$class_member_type.html#754c56afdaaf759040bec720c28fd71d" title="Get the user ID of this member. &#160;." alt="" coords="279,533,439,560">
+<area shape="rect" href="$class_binary_search_tree.html#fcb995deec5a206a39563ce9c342356b" title="Search the binary search tree, using the given search key (long), returns true if..." alt="" coords="253,584,464,611">
+<area shape="rect" href="$class_binary_search_tree.html#e8b44c1865e842dc67a14dda08eef733" title="Delete (from the binary search tree) the node to which p points. &#160;." alt="" coords="513,183,735,209">
+<area shape="rect" href="$class_book_type.html#e3e51cb25cc8504657ab063d1a894c63" title="Get the author at the given index. &#160;." alt="" coords="831,107,985,133">
+<area shape="rect" href="$class_book_type.html#aff8e706d33b95d77c41e7553d9f4a9a" title="Get the ISBN of the book. &#160;." alt="" coords="844,157,972,184">
+<area shape="rect" href="$class_book_type.html#cfebb527c055ffda32ae187af7ad532e" title="Get the number of authors of the book. &#160;." alt="" coords="804,208,1012,235">
+<area shape="rect" href="$class_book_type.html#e5605c63d7f7ebfaea1581355c035224" title="Get the number of copies of the book that are owned by the library. &#160;." alt="" coords="784,259,1032,285">
+<area shape="rect" href="$class_book_type.html#efd446179f5c06b157c1d4089437635b" title="Get the price of the book. &#160;." alt="" coords="840,309,976,336">
+<area shape="rect" href="$class_book_type.html#d1a4be246075d525650a18c137da4e84" title="Get the publisher of the book. &#160;." alt="" coords="828,5,988,32">
+<area shape="rect" href="$class_book_type.html#c47ad9da4fe22819463968c9c292a43b" title="Get the title of the book. &#160;." alt="" coords="844,56,972,83">
+<area shape="rect" href="$class_lib_system.html#4bef65115faa1279fc34af8921b17b67" title="Display the given date. &#160;." alt="" coords="544,335,704,361">
+<area shape="rect" href="$class_book_loan.html#236b8466dfe3de11a32fc2f90123c77a" title="Get date the book was borrowed. &#160;." alt="" coords="531,385,717,412">
+<area shape="rect" href="$class_book_loan.html#dd37f13390b48f9db2f256e22c35e74b" title="Get the date the book is due back. &#160;." alt="" coords="547,436,701,463">
+<area shape="rect" href="$class_date.html#5a6d0b1d3760d3cc447c0caf22f31068" title="Get the day of the month (1 &#45; 31) ." alt="" coords="833,360,983,387">
+<area shape="rect" href="$class_date.html#a059073408e455c7fcf288d9b8c8f52f" title="Get the month as a string (January &#45; December) ." alt="" coords="843,411,973,437">
+<area shape="rect" href="$class_date.html#fd9af627dd2617da9baa066adf552248" title="Get the year ." alt="" coords="856,461,960,488">

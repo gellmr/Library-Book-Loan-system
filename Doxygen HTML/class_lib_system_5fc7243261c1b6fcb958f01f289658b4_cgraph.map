@@ -1,0 +1,30 @@
+<area shape="rect" href="$class_lib_system.html#29d13b44220c062fefaa3c549bb58aad" title="Display the details of a given book. &#160;." alt="" coords="475,208,677,235">
+<area shape="rect" href="$class_lib_system.html#5467d73421af78ca68adb4850b6dee16" title="Show the details of a given loan. &#160;." alt="" coords="216,461,416,488">
+<area shape="rect" href="$class_book_loan.html#56413b7fd297ca954a44e8dc68bbf05b" title="Get the ISBN of the book that is loaned. &#160;." alt="" coords="493,613,659,640">
+<area shape="rect" href="$class_binary_search_tree.html#386843c0cda9b8b70a9132d0eae0e41e" title="Get the value of the node found using the given search key (long). &#160;." alt="" coords="469,512,683,539">
+<area shape="rect" href="$class_book_loan.html#af42c32ad7861f51e167a80b49b2cce1" title="Get the ID of the patron who borrowed the book. &#160;." alt="" coords="500,563,652,589">
+<area shape="rect" href="$class_member_type.html#754c56afdaaf759040bec720c28fd71d" title="Get the user ID of this member. &#160;." alt="" coords="236,740,396,767">
+<area shape="rect" href="$class_lib_system.html#0a2b403c0178f3c824cdde221f3f1ea2" title="Given a loan object, renew its borrowed / due dates. &#160;." alt="" coords="224,689,408,716">
+<area shape="rect" href="$class_binary_search_tree.html#fcb995deec5a206a39563ce9c342356b" title="Search the binary search tree, using the given search key (long), returns true if..." alt="" coords="211,791,421,817">
+<area shape="rect" href="$class_book_type.html#e3e51cb25cc8504657ab063d1a894c63" title="Get the author at the given index. &#160;." alt="" coords="777,208,932,235">
+<area shape="rect" href="$class_book_type.html#aff8e706d33b95d77c41e7553d9f4a9a" title="Get the ISBN of the book. &#160;." alt="" coords="791,259,919,285">
+<area shape="rect" href="$class_book_type.html#cfebb527c055ffda32ae187af7ad532e" title="Get the number of authors of the book. &#160;." alt="" coords="751,309,959,336">
+<area shape="rect" href="$class_book_type.html#e5605c63d7f7ebfaea1581355c035224" title="Get the number of copies of the book that are owned by the library. &#160;." alt="" coords="731,5,979,32">
+<area shape="rect" href="$class_book_type.html#efd446179f5c06b157c1d4089437635b" title="Get the price of the book. &#160;." alt="" coords="787,56,923,83">
+<area shape="rect" href="$class_book_type.html#d1a4be246075d525650a18c137da4e84" title="Get the publisher of the book. &#160;." alt="" coords="775,107,935,133">
+<area shape="rect" href="$class_book_type.html#c47ad9da4fe22819463968c9c292a43b" title="Get the title of the book. &#160;." alt="" coords="791,157,919,184">
+<area shape="rect" href="$class_lib_system.html#4bef65115faa1279fc34af8921b17b67" title="Display the given date. &#160;." alt="" coords="496,360,656,387">
+<area shape="rect" href="$class_book_loan.html#236b8466dfe3de11a32fc2f90123c77a" title="Get date the book was borrowed. &#160;." alt="" coords="483,411,669,437">
+<area shape="rect" href="$class_book_loan.html#dd37f13390b48f9db2f256e22c35e74b" title="Get the date the book is due back. &#160;." alt="" coords="499,461,653,488">
+<area shape="rect" href="$class_date.html#5a6d0b1d3760d3cc447c0caf22f31068" title="Get the day of the month (1 &#45; 31) ." alt="" coords="780,360,929,387">
+<area shape="rect" href="$class_date.html#a059073408e455c7fcf288d9b8c8f52f" title="Get the month as a string (January &#45; December) ." alt="" coords="789,411,920,437">
+<area shape="rect" href="$class_date.html#fd9af627dd2617da9baa066adf552248" title="Get the year ." alt="" coords="803,461,907,488">
+<area shape="rect" href="$class_date.html#2f2c1f3c4502cf01991dc0fe2e16e343" title="Get the month (1 &#45; 12) ." alt="" coords="520,715,632,741">
+<area shape="rect" href="$class_binary_search_tree.html#98ccc715c0fa980c6669940d7e629c85" title="Search for a node matching the given key (long), and replace it&#39;s data with the..." alt="" coords="475,765,677,792">
+<area shape="rect" href="$class_book_loan.html#a4a6198c49f0d5622c91deb9416ef215" title="Set date the book was borrowed. &#160;." alt="" coords="483,816,669,843">
+<area shape="rect" href="$class_book_loan.html#ddea27c4f0f877c2ea51ef0dc0e63fa8" title="Set the date the book is due back. &#160;." alt="" coords="499,867,653,893">
+<area shape="rect" href="$class_date.html#88b572a29344da4c82c1c7f21422d205" title="Set the month (1 &#45; 12) ." alt="" coords="799,841,911,868">
+<area shape="rect" href="$class_lib_system.html#6bec5a27e97c20d85f28377a91bd4622" title="Set the given date to today&#39;s date. &#160;." alt="" coords="497,917,655,944">
+<area shape="rect" href="$class_date.html#1d0a6b65d364b83734014fe228ae669b" title="Check if the day of the month is valid for the given month ." alt="" coords="1028,892,1145,919">
+<area shape="rect" href="$class_date.html#c9573457018a83e2f67674a93de329a6" title="Set the day of the month (1 &#45; 31) ." alt="" coords="781,943,928,969">
+<area shape="rect" href="$class_date.html#3178b230142da361966f28a86345d654" title="Set the year ." alt="" coords="803,892,907,919">

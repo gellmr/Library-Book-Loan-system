@@ -1,0 +1,1171 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang3081{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Webdings;}{\f2\fnil Calibri;}{\f3\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue0;\red255\green0\blue0;\red255\green255\blue0;\red128\green128\blue128;\red0\green255\blue255;\red0\green255\blue0;\red0\green0\blue255;\red255\green255\blue255;\red150\green150\blue150;\red153\green204\blue255;\red204\green204\blue255;\red192\green192\blue192;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\i\f0\fs28 Contents of this document:\b\i0\fs36\line\pard\li284\sa200\sl276\slmult1\b0\f1\fs6 n\f0\fs24  \tab Test Plan\tab (table)\line\f1\fs6 n\f0\fs24  \tab Test Results\tab (copied from output text file)\line\f1\fs6 n\f0\fs24  \tab Test Data\tab (source code from unit tests)\fs56\par
+\pard\sa200\sl276\slmult1\i\fs32 Please see Evaluation.txt for a summary of testing.\par
+\par
+\i0\fs56\par
+Test Plan:\fs22\par
+\trowd\trgaph30\trleft-30\trrh290\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat9\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\cf1\f2\cell\pard\intbl\fs18 TEST\cell DESCRIPTION\cell EXPECTED OUTPUT\cell\pard\intbl\qc PASSED ?\cell\row\trowd\trgaph30\trleft-30\trrh492\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat10\clcbpat8\clshdng10000\cellx421\clcfpat11\clcbpat8\clshdng10000\cellx2452\clcfpat11\clcbpat8\clshdng10000\cellx6013\clcfpat11\clcbpat8\clshdng10000\cellx9076\clcfpat11\clcbpat8\clshdng10000\cellx10156\pard\intbl\qc\fs22\cell\pard\intbl\b\fs18 BinarySearchTree\cell\pard\intbl\qr\b0\cell\cell\pard\intbl\qc\cell\row\trowd\trgaph30\trleft-30\trrh290\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 1\cell\pard\intbl\fs18 default construction\cell Check that resulting object has a value\cell isEmpty() returns true\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 2\cell\pard\intbl\fs18 insertion\cell Insert an object to tree, check that the node count is +1\cell treeNodeCount() returns 1\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 3\cell\pard\intbl\fs18 deletion\cell Delete the object, using deleteNode().  Check that the node count is 0\cell treeNodeCount() returns 0\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 4\cell\pard\intbl\fs18 search\cell insert some items and search for one of them\cell search() returns index of the item.\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh696\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 5\cell\pard\intbl\fs18 searchByKey\cell insert some items with known ISBN values, and search for one of them by providing the ISBN.\cell searchByKey() returns index of the item.\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh929\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 6\cell\pard\intbl\fs18 replaceNode\cell insert some items with known ISBN values, and replace one of them by specifying the ISBN and replacement object value.\cell replaceNode() returns true\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh929\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\clcfpat2\clcbpat8\clshdng10000\cellx10156\pard\intbl\qc\fs22 7\cell\pard\intbl\fs18 getNodeValue\cell insert some items with known ISBN values, and retrieve one of them by specifying the ISBN and providing an object to receive its value.\cell getNodeValue returns the object which matches the original via equality comparison operator (==)\cell\pard\intbl\qc 0\cell\row\trowd\trgaph30\trleft-30\trrh696\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 8\cell\pard\intbl\fs18 inOrderDump\cell insert some objects and dump them to a vector. See if vector contents match the original object that were inserted.\cell Dumped objects match original values.\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh290\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat10\clcbpat8\clshdng10000\cellx421\clcfpat11\clcbpat8\clshdng10000\cellx2452\clcfpat11\clcbpat8\clshdng10000\cellx6013\clcfpat11\clcbpat8\clshdng10000\cellx9076\clcfpat11\clcbpat8\clshdng10000\cellx10156\pard\intbl\qc\fs22\cell\pard\intbl\b\fs18 BookLoan\cell\pard\intbl\qr\b0\cell\cell\pard\intbl\qc\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 9\cell\pard\intbl\fs18 test setters and getters\cell Set some values and get them\cell original values match\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 10\cell\pard\intbl\fs18 getKey\cell set the ISBN value and call getKey()\cell key value matches the original ISBN\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh290\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat10\clcbpat8\clshdng10000\cellx421\clcfpat11\clcbpat8\clshdng10000\cellx2452\clcfpat11\clcbpat8\clshdng10000\cellx6013\clcfpat11\clcbpat8\clshdng10000\cellx9076\clcfpat11\clcbpat8\clshdng10000\cellx10156\pard\intbl\qc\fs22\cell\pard\intbl\b\fs18 BookType\cell\pard\intbl\qr\b0\cell\cell\pard\intbl\qc\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 11\cell\pard\intbl\fs18 test setters and getters\cell Set some values and get them\cell original values match\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 12\cell\pard\intbl\fs18 assignment operator override\cell Compare two objects with same properties\cell object comparison == true\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 13\cell\pard\intbl\fs18 getKey\cell set the ISBN value and call getKey()\cell key value matches the original ISBN\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh290\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat10\clcbpat8\clshdng10000\cellx421\clcfpat11\clcbpat8\clshdng10000\cellx2452\clcfpat11\clcbpat8\clshdng10000\cellx6013\clcfpat11\clcbpat8\clshdng10000\cellx9076\clcfpat11\clcbpat8\clshdng10000\cellx10156\pard\intbl\qc\fs22\cell\pard\intbl\b\fs18 Date\cell\pard\intbl\qr\b0\cell\cell\pard\intbl\qc\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 14\cell\pard\intbl\fs18 test setters and getters\cell Set some values and get them\cell original values match\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 15\cell\pard\intbl\fs18 Test internal validation of dates\cell Check that dayOfMonth is legal for the given month\cell november 31 is illegal, etc.\cell\pard\intbl\qc 1\cell\row\trowd\trgaph30\trleft-30\trrh290\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat10\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22\cell\pard\intbl\b\fs18 MemberType\cell\pard\intbl\qr\b0\cell\cell\pard\intbl\qc\cell\row\trowd\trgaph30\trleft-30\trrh463\trpaddl30\trpaddr30\trpaddfl3\trpaddfr3
+\clcfpat12\clcbpat8\clshdng10000\cellx421\cellx2452\cellx6013\cellx9076\cellx10156\pard\intbl\qc\fs22 16\cell\pard\intbl\fs18 test setters and getters\cell Set some values and get them\cell original values match\cell\pard\intbl\qc 1\cell\row\pard\sa200\sl276\slmult1\cf0\f0\fs22\par
+\fs44 TEST RESULTS:\fs22\line\par
+\b // BinarySearchTree<T>  class\b0\line\pard\li568\sa200\sl276\slmult1\line Test Default Construction. \tab Passed\par
+Test Insertion  \tab\tab\tab Passed\par
+Test Deletion \tab\tab\tab Passed\par
+Test Search \tab\tab\tab Passed\par
+Test SearchByKey \tab\tab Passed\par
+Test replaceNode \tab\tab Passed\par
+Test GetNodeValue \tab\tab\highlight2 FAILED\highlight0\par
+Test inOrderDump \tab\tab Passed\line\par
+\pard\sa200\sl276\slmult1\b // BookLoan class\b0\line\pard\li568\sa200\sl276\slmult1\line test BookLoan class  Getters/Setters \tab\tab\tab Passed\par
+test BookLoan class  getKey() \tab\tab\tab\tab Passed\line\line\line\pard\sa200\sl276\slmult1\b // BookType class\b0\par
+\pard\li568\sa200\sl276\slmult1 test BookType class  Getters/Setters \tab\tab\tab Passed\par
+test BookType class  Assignment Operator Override() \tab Passed\par
+test BookType class  getKey() \tab\tab\tab\tab Passed\line\line\line\pard\sa200\sl276\slmult1\b // Date class  \b0 (test numbers listed below do \b\i not \b0\i0 reflect those in the table above. See source code below.)\par
+\pard\li568\sa200\sl276\slmult1 Tesing the Date class  for internal validation.\par
+Passed test 1\par
+Passed test 2\par
+Passed test 3\par
+Passed test 4\par
+Passed test 5\par
+Passed test 6\par
+Passed test 7\par
+Passed test 8\par
+Passed test 9\par
+Passed test 10\par
+Passed test 11\par
+Passed test 11.1\par
+Passed test 11.2\par
+Passed test 12\par
+Passed test 13\par
+Passed test 14\par
+Passed test 15\par
+Passed test 16\par
+Passed test 17\par
+Passed test 18\par
+Passed test 19\par
+Passed test 20\par
+Passed test 21\par
+Passed test 22\par
+\par
+Passed getters and setters  test \par
+\par
+End of unit tests for the date class.\par
+\par
+\par
+\line\pard\sa200\sl276\slmult1\b // MemberType class\b0\par
+\pard\li568\sa200\sl276\slmult1  MemberType unit test - getters and setters: Passed.\par
+\pard\sa200\sl276\slmult1\par
+\par
+\i\fs32\par
+\i0\fs22\par
+\line\line\par
+\fs44 TEST DATA: (source code)\line\fs32 Test input data was hard coded into the source files of the unit test programs. The relevant code has been provided below.\line Please see the "Unit Testing Source Code" folder for the full unit test programs.\line\line\fs22 (Color coding for ease of reference.)\fs44\par
+\highlight3\b\fs22 (1) BinarySearchTree<T>  class\b0\line\highlight4\b (2) BookLoan class\highlight0\b0\line\highlight2\b (3) BookType class\b0\line\highlight5\b (4) Date class\b0\line\highlight6\b (5) MemberType class\line\highlight0\b0\fs44\line\par
+\b\fs22\line\line\highlight3 (1) BinarySearchTree<T>  class\highlight0\tab\b0 (from testBST.cpp  Unit Test)\b\line\pard\li568\lang3081\b0\f3\fs16\par
+\par
+\par
+\tab // Default construction\par
+\tab //\tab\tab Check that resulting object has a value\par
+\tab //\tab\tab isEmpty() returns true, success\par
+\par
+\tab file << "Test Default Construction. \\t";\par
+\tab BinarySearchTree<BookType> bst;\par
+\tab if (bst.isEmpty())\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "FAILED" << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab // Insertion\par
+\tab //\tab\tab Insert an object to tree.\par
+\tab //\tab\tab Check that node count is +1\par
+\tab //\tab\tab treeNodeCount() returns 1 == success\par
+\tab file << "Test Insertion  \\t\\t";\par
+\tab BookType book;\par
+\tab bst.insert(book);\par
+\tab int treeCount = bst.treeNodeCount();\par
+\tab if (treeCount == 1)\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "FAILED" << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab // Deletion\par
+\tab //\tab\tab Delete the object, using deleteNode()\par
+\tab //\tab\tab Check that the node count is 0\par
+\tab //\tab\tab treeNodeCount() returns 0 == success\par
+\tab file << "Test Deletion \\t\\t\\t";\par
+\tab bst.deleteNode(book);\par
+\tab treeCount = bst.treeNodeCount();\par
+\tab if (treeCount == 0)\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "FAILED" << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\tab // Search\par
+\tab //\tab\tab Insert some items and search for one of them.\par
+\tab //\tab\tab search() returns index of the item: success.\par
+\tab file << "Test Search \\t\\t\\t";\par
+\par
+\tab book.setIsbn(111);\par
+\tab bst.insert(book);\par
+\tab book.setIsbn(333);\par
+\tab bst.insert(book);\par
+\tab book.setIsbn(11);\par
+\tab bst.insert(book);\par
+\tab book.setIsbn(33);\par
+\tab bst.insert(book);\par
+\tab book.setIsbn(22);\par
+\tab bst.insert(book);\par
+\tab book.setIsbn(222);\par
+\tab bst.insert(book);\par
+\par
+\tab BookType anotherBook;\par
+\tab anotherBook.setIsbn(11);\par
+\par
+\tab if (bst.search(anotherBook))\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "FAILED" << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\tab // SearchByKey\par
+\tab //\tab\tab Insert some items with known ISBN values\par
+\tab //\tab\tab search for one of them, providing ISBN.\par
+\tab //\tab\tab searchByKey() returns the idx of the item: success.\par
+\tab file << "Test SearchByKey \\t\\t";\par
+\par
+\tab if (bst.searchByKey(333))\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "FAILED" << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\tab // ReplaceNode\par
+\tab //\tab\tab Insert some items with known ISBN values,\par
+\tab //\tab\tab replace one of them by specifying the ISBN\par
+\tab //\tab\tab and replacement object value.\par
+\tab //\tab\tab if replaceNode() returns true && node actually changed : success.\par
+\tab file << "Test replaceNode \\t\\t";\par
+\par
+\tab BookType yetAnotherBook;\par
+\tab string theTitle;\par
+\tab theTitle = "Node 777";\par
+\tab yetAnotherBook.setTitle(theTitle);\par
+\tab yetAnotherBook.setIsbn(777);\par
+\par
+\tab if (bst.replaceNode(333, yetAnotherBook)) // Replace node 333 with node 777\par
+\tab\{\par
+\tab\tab // Replaced node 333\par
+\tab\tab BookType stillAnotherBook;\par
+\tab\tab bst.getNodeValue(777, stillAnotherBook); // Get node 777\par
+\par
+\tab\tab string itsTitle;\par
+\tab\tab stillAnotherBook.getTitle(itsTitle); // Node actually changed ?\par
+\par
+\tab\tab if (itsTitle == "Node 777")\par
+\tab\tab\{\par
+\tab\tab\tab // Node 333 is now Node 777. The integrity of the search tree has been destroyed, but the unit test has succeeded.\par
+\tab\tab\tab file << "Passed" << endl;\par
+\tab\tab\}\par
+\tab\tab else\par
+\tab\tab\{\par
+\tab\tab\tab file << "FAILED" << endl;\par
+\tab\tab\}\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "FAILED" << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\tab // GetNodeValue\par
+\tab //\tab\tab Insert some items with known ISBN values,\par
+\tab //\tab\tab retrieve one of them by specifying the ISBN\par
+\tab //\tab\tab and providing an object to receive its value.\par
+\tab //\tab\tab getNodeValue() returns the object which matches\par
+\tab //\tab\tab the original via equality comparison\par
+\tab //\tab\tab operator (==) ...success\par
+\tab file << "Test GetNodeValue \\t\\t";\par
+\par
+\tab BookType greatBook;\par
+\par
+\tab greatBook.setTitle("Great Book");\par
+\tab greatBook.setIsbn(444);\par
+\tab greatBook.setPublisher             ( "Great Publisher" );\par
+\tab greatBook.setPrice                 ( 44.44 );\par
+\tab greatBook.setNumberOfCopiesInStock ( 44 );\par
+\tab greatBook.setNumberOfAuthors       ( 4 );\par
+\tab greatBook.setAuthorAt ( "Auth 0" , 0 );\par
+\tab greatBook.setAuthorAt ( "Auth 1" , 1 );\par
+\tab greatBook.setAuthorAt ( "Auth 2" , 2 );\par
+\tab greatBook.setAuthorAt ( "Auth 3" , 3 );\par
+\par
+\tab bst.insert(greatBook);\par
+\par
+\tab BookType otherBook;\par
+\tab bst.getNodeValue(444, otherBook); // Get node 444\par
+\par
+\par
+\tab if (otherBook == greatBook)\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "FAILED" << endl; // Problem with the assignment operator override.\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\tab // inOrderDump\par
+\tab //\tab\tab Insert some objects and dump them to a vector.\par
+\tab //\tab\tab Display the contents of the vector.\par
+\tab //\tab\tab Displayed object values match the original\par
+\tab //\tab\tab values... success.\par
+\par
+\tab file << "Test inOrderDump \\t\\t";\par
+\par
+\par
+\tab bst.destroyTree();\par
+\tab vector<BookType> booksVect;\par
+\tab vector<BookType> booksVectB;\par
+\par
+\tab BookType b;\par
+\tab b.setIsbn(57);\par
+\tab booksVect.push_back(b);\par
+\tab b.setIsbn(58);\par
+\tab booksVect.push_back(b);\par
+\tab b.setIsbn(59);\par
+\tab booksVect.push_back(b);\par
+\par
+\tab bst.insert(booksVect[0]);\par
+\tab bst.insert(booksVect[1]);\par
+\tab bst.insert(booksVect[2]);\par
+\par
+\tab bst.inOrderDump(booksVectB);\par
+\par
+\tab if (booksVectB[0] == booksVect[0])\par
+\tab\{\par
+\tab\tab if (booksVectB[1] == booksVect[1])\par
+\tab\tab\{\par
+\tab\tab\tab if (booksVectB[2] == booksVect[2])\par
+\tab\tab\tab\{\par
+\tab\tab\tab\tab file << "Passed" << endl;\par
+\tab\tab\tab\}\par
+\tab\tab\tab else\par
+\tab\tab\tab\{\par
+\tab\tab\tab\tab file << "FAILED" << endl; // Problem with the assignment operator override.\par
+\tab\tab\tab\}\par
+\tab\tab\}\par
+\tab\tab else\par
+\tab\tab\{\par
+\tab\tab\tab file << "FAILED" << endl; // Problem with the assignment operator override.\par
+\tab\tab\}\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "FAILED" << endl; // Problem with the assignment operator override.\par
+\tab\}\par
+\par
+\tab // Finished testing BST class.\par
+\pard\li568\sa200\sl276\slmult1\tab\lang9\f0\fs22\line\b\par
+\par
+\par
+\line\pard\sa200\sl276\slmult1\highlight4 (2) BookLoan class\highlight0\tab\tab\b0 (from testBookLoan.cpp  Unit Test)\b\line\pard\li568\sl240\slmult1\b0\fs18\line\line\fs16\tab\par
+\par
+\tab // SETTERS / GETTERS\par
+\par
+\tab file << "test BookLoan class  Getters/Setters \\t\\t\\t";\par
+\par
+\tab BookLoan myBookLoan;\par
+\par
+\tab // Set\par
+\tab long bIsbn;\par
+\tab long patronID;\par
+\tab Date dBorr;\par
+\tab Date dDue;\par
+\par
+\tab bIsbn    = 3333;\par
+\tab patronID = 33;\par
+\par
+\tab dBorr.SetDayOfMonth(3);\par
+\tab dBorr.SetMonth(3);\par
+\tab dBorr.SetYear(3);\par
+\par
+\tab dDue.SetDayOfMonth(3);\par
+\tab dDue.SetMonth(4);\par
+\tab dDue.SetYear(3);\par
+\par
+\tab myBookLoan.setBookISBN    (bIsbn);\par
+\tab myBookLoan.setPatronId    (patronID);\par
+\tab myBookLoan.setBorrowedDate(dBorr);\par
+\tab myBookLoan.setDueDate     (dDue);\par
+\par
+\tab // Get\par
+\tab long after_bIsbn;\par
+\tab long after_patronID;\par
+\tab Date after_dBorr;\par
+\tab Date after_dDue;\par
+\par
+\tab myBookLoan.getBookISBN    (after_bIsbn);\par
+\tab myBookLoan.getPatronId    (after_patronID);\par
+\tab myBookLoan.getBorrowedDate(after_dBorr);\par
+\tab myBookLoan.getDueDate     (after_dDue);\par
+\par
+\par
+\tab bool pass = false;\par
+\tab if (after_bIsbn == bIsbn)\par
+\tab\{\par
+\tab\tab if (after_patronID == patronID)\par
+\tab\tab\{\par
+\tab\tab\tab if (after_dBorr == dBorr)\par
+\tab\tab\tab\{\par
+\tab\tab\tab\tab if (after_dDue == dDue)\par
+\tab\tab\tab\tab\{\par
+\tab\tab\tab\tab\tab pass = true;\par
+\tab\tab\tab\tab\}\par
+\tab\tab\tab\}\par
+\tab\tab\}\par
+\tab\}\par
+\tab if (pass)\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed" << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\par
+\tab // getKey()\par
+\tab //\tab\tab Set the ISBN and call getKey()\par
+\tab //\tab\tab The key value matches the original ISBN\par
+\tab //\tab\tab ...success\par
+\par
+\tab file << "test BookLoan class  getKey() \\t\\t\\t\\t";\par
+\par
+\tab BookLoan myBookLoan2;\par
+\tab myBookLoan2.setBookISBN(5432);\par
+\tab long someKey;\par
+\tab someKey = myBookLoan2.getKey();\par
+\tab if (someKey == 5432)\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed" << endl;\par
+\tab\}\line\pard\li568\sa200\sl276\slmult1\b\fs22\par
+\par
+\par
+\line\pard\sa200\sl276\slmult1\highlight2 (3) BookType class\highlight0\tab\tab\b0 (from testBookType.cpp  Unit Test)\b\line\pard\li568\sa200\sl276\slmult1\b0\line\pard\li568\sl240\slmult1\line\fs16\tab // SETTERS / GETTERS\par
+\par
+\tab file << "test BookType class  Getters/Setters \\t\\t\\t";\par
+\par
+\tab BookType b;\par
+\par
+\tab string\tab\tab title;\par
+\tab unsigned\tab numberOfAuthors;\par
+\tab string\tab\tab publisher;\par
+\tab string auth0;\par
+\tab string auth1;\par
+\tab string auth2;\par
+\tab unsigned\tab numberOfCopiesInStock;\par
+\tab double\tab\tab price;\par
+\tab long\tab\tab isbn;\par
+\par
+\tab title = "SomeBook";\par
+\tab numberOfAuthors = 3;\par
+\tab publisher = "SomePublisher";\par
+\tab auth0 = "Adam";\par
+\tab auth1 = "Beth";\par
+\tab auth2 = "Celina";\par
+\tab numberOfCopiesInStock = 3;\par
+\tab price = 3.33;\par
+\tab isbn = 12345;\par
+\par
+\tab b.setTitle(title);\par
+\tab b.setNumberOfAuthors(numberOfAuthors);\par
+\tab b.setAuthorAt(auth0, 0);\par
+\tab b.setAuthorAt(auth1, 1);\par
+\tab b.setAuthorAt(auth2, 2);\par
+\tab b.setPublisher(publisher);\par
+\tab b.setNumberOfCopiesInStock(numberOfCopiesInStock);\par
+\tab b.setPrice(price);\par
+\tab b.setIsbn(isbn);\par
+\par
+\par
+\tab string\tab\tab title2;\par
+\tab unsigned\tab numberOfAuthors2;\par
+\tab string\tab\tab publisher2;\par
+\tab string auth02;\par
+\tab string auth12;\par
+\tab string auth22;\par
+\tab unsigned\tab numberOfCopiesInStock2;\par
+\tab double\tab\tab price2;\par
+\tab long\tab\tab isbn2;\par
+\par
+\tab b.getTitle(title2);\par
+\tab b.getNumberOfAuthors(numberOfAuthors2);\par
+\tab b.getAuthorAt(auth02, 0);\par
+\tab b.getAuthorAt(auth12, 1);\par
+\tab b.getAuthorAt(auth22, 2);\par
+\tab b.getPublisher(publisher2);\par
+\tab b.getNumberOfCopiesInStock(numberOfCopiesInStock2);\par
+\tab b.getPrice(price2);\par
+\tab b.getIsbn(isbn2);\par
+\par
+\tab // Climbe ze mountain...\par
+\par
+\tab bool pass = false;\par
+\par
+\tab if (title == title2)\par
+\tab\{\par
+\tab\tab if (numberOfAuthors == numberOfAuthors2)\par
+\tab\tab\{\par
+\tab\tab\tab if (publisher == publisher2)\par
+\tab\tab\tab\{\par
+\tab\tab\tab\tab if (auth0 == auth02)\par
+\tab\tab\tab\tab\{\par
+\tab\tab\tab\tab\tab if (auth1 == auth12)\par
+\tab\tab\tab\tab\tab\{\par
+\tab\tab\tab\tab\tab\tab if (auth2 == auth22)\par
+\tab\tab\tab\tab\tab\tab\{\par
+\tab\tab\tab\tab\tab\tab\tab if (publisher == publisher2)\par
+\tab\tab\tab\tab\tab\tab\tab\{\par
+\tab\tab\tab\tab\tab\tab\tab\tab if (numberOfCopiesInStock == numberOfCopiesInStock2)\par
+\tab\tab\tab\tab\tab\tab\tab\tab\{\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab if (price == price2)\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\{\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab if (isbn == isbn2)\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\{\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab pass = true; // Phew. Now climb back down.\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\}\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\}\par
+\tab\tab\tab\tab\tab\tab\tab\tab\}\par
+\tab\tab\tab\tab\tab\tab\tab\}\par
+\tab\tab\tab\tab\tab\tab\}\par
+\tab\tab\tab\tab\tab\}\par
+\tab\tab\tab\tab\}\par
+\tab\tab\tab\}\par
+\tab\tab\}\par
+\tab\}\par
+\par
+\tab // Use && next time.\par
+\par
+\tab if (pass)\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed" << endl;\par
+\tab\}\par
+\par
+\par
+\line\line\par
+\par
+\par
+\par
+\tab // Test the assignment operator override.\par
+\tab //\tab\tab Compare two objects with same values.\par
+\tab //\tab\tab Object comparison == true\par
+\tab //\tab\tab ...success\par
+\par
+\tab file << "test BookType class  Assignment Operator Override() \\t";\par
+\par
+\tab BookType bookOne;\par
+\tab BookType bookTwo;\par
+\par
+\tab title = "SomeBook";\par
+\tab numberOfAuthors = 3;\par
+\tab publisher = "SomePublisher";\par
+\tab auth0 = "Adam";\par
+\tab auth1 = "Beth";\par
+\tab auth2 = "Celina";\par
+\tab numberOfCopiesInStock = 3;\par
+\tab price = 3.33;\par
+\tab isbn = 12345;\par
+\par
+\tab bookOne.setTitle(title);\par
+\tab bookOne.setNumberOfAuthors(numberOfAuthors);\par
+\tab bookOne.setAuthorAt(auth0, 0);\par
+\tab bookOne.setAuthorAt(auth1, 1);\par
+\tab bookOne.setAuthorAt(auth2, 2);\par
+\tab bookOne.setPublisher(publisher);\par
+\tab bookOne.setNumberOfCopiesInStock(numberOfCopiesInStock);\par
+\tab bookOne.setPrice(price);\par
+\tab bookOne.setIsbn(isbn);\par
+\par
+\tab bookTwo.setTitle(title);\par
+\tab bookTwo.setNumberOfAuthors(numberOfAuthors);\par
+\tab bookTwo.setAuthorAt(auth0, 0);\par
+\tab bookTwo.setAuthorAt(auth1, 1);\par
+\tab bookTwo.setAuthorAt(auth2, 2);\par
+\tab bookTwo.setPublisher(publisher);\par
+\tab bookTwo.setNumberOfCopiesInStock(numberOfCopiesInStock);\par
+\tab bookTwo.setPrice(price);\par
+\tab bookTwo.setIsbn(isbn);\par
+\par
+\tab bookTwo.setAuthorAt("Harry", 2); // This should make the test fail. Something is wrong.\par
+\par
+\tab if (bookOne == bookTwo)\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed" << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\line\line\par
+\tab // getKey()\par
+\tab //\tab\tab Set the ISBN and call getKey()\par
+\tab //\tab\tab The key value matches the original ISBN\par
+\tab //\tab\tab ...success\par
+\tab file << "test BookType class  getKey() \\t\\t\\t\\t";\par
+\par
+\tab BookType mbt;\par
+\tab mbt.setIsbn(5432);\par
+\tab long someKey;\par
+\tab someKey = mbt.getKey();\par
+\tab if (someKey == 5432)\par
+\tab\{\par
+\tab\tab file << "Passed" << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed" << endl;\par
+\tab\}\fs22\line\pard\li568\sa200\sl276\slmult1\line\line\line\line\b\line\pard\sa200\sl276\slmult1\highlight5 (4) Date class\highlight0\tab\tab\tab\b0 (from testDate.cpp  Unit Test)\b\line\pard\li568\sl240\slmult1\b0\par
+\fs16\par
+\par
+\tab double testNumber = 0;\par
+\par
+\tab file << "Tesing the Date class  for internal validation." << endl;\par
+\tab Date d;\par
+\tab unsigned dd;\par
+\par
+\tab // TEST GETTERS / SETTERS\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 1\par
+\tab ++testNumber;\par
+\tab d.SetMonth(1);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 1)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 2\par
+\tab ++testNumber;\par
+\tab d.SetMonth(1);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(UINT_MAX); // Method should have no effect.\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 1)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 3\par
+\tab ++testNumber;\par
+\tab d.SetMonth(1);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(0); // Method should have no effect.\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 1)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 4\par
+\tab ++testNumber;\par
+\tab d.SetMonth(1);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(31); // Method should have no effect.\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 31)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 5\par
+\tab ++testNumber;\par
+\tab d.SetMonth(1);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.SetDayOfMonth(32); // Method should have no effect.\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 1)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 6\par
+\tab ++testNumber;\par
+\tab d.SetMonth(2);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(28);\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 28)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 7\par
+\tab ++testNumber;\par
+\tab d.SetMonth(2);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.SetDayOfMonth(29);  // No effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 1)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 8\par
+\tab ++testNumber;\par
+\tab d.SetMonth(3);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(31);\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 31)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 9\par
+\tab ++testNumber;\par
+\tab d.SetMonth(3);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.SetDayOfMonth(32); // No effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 1)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 10\par
+\tab ++testNumber;\par
+\tab d.SetMonth(4);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(30);\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 30)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 11\par
+\tab ++testNumber;\par
+\tab d.SetMonth(4);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.SetDayOfMonth(31); // no effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 1)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 11.1\par
+\tab testNumber = 11.1;\par
+\tab d.SetMonth(5);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(31);\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 31)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 11.2\par
+\tab testNumber = 11.2;\par
+\tab d.SetMonth(5);\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.SetDayOfMonth(32); // no effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 1)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab ///////////////////////////////// Test 12\par
+\tab testNumber = 12;\par
+\tab d.SetMonth(6);      //June\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.SetDayOfMonth(30);\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 30)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 13;\par
+\tab d.SetMonth(6);      //June\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.SetDayOfMonth(30);\par
+\tab d.SetDayOfMonth(31); // no effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 30)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 14;\par
+\tab d.SetMonth(7);      //July\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.SetDayOfMonth(31);\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 31)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 15;\par
+\tab d.SetMonth(7);      //July\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(1);\par
+\tab d.SetDayOfMonth(32); // no effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 1)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 16;\par
+\tab d.SetMonth(8);      //August\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(31);\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 31)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 17;\par
+\tab d.SetMonth(8);      //August\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(31);\par
+\tab d.SetDayOfMonth(32); // no effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 31)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 18;\par
+\tab d.SetMonth(9);      //September\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(30);\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 30)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 19;\par
+\tab d.SetMonth(9);      //September\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(30);\par
+\tab d.SetDayOfMonth(31); // no effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 30)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 20;\par
+\tab d.SetMonth(10);      //October\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(31);\par
+\tab d.SetDayOfMonth(32); // no effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 31)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 21;\par
+\tab d.SetDayOfMonth(2);\par
+\tab d.SetMonth(11);      //November\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(30);\par
+\tab d.SetDayOfMonth(31); // no effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 30)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\tab /////////////////////////////////\par
+\tab testNumber = 22;\par
+\tab d.SetMonth(12);      //December\par
+\tab d.SetYear(2000);\par
+\tab d.SetDayOfMonth(31);\par
+\tab d.SetDayOfMonth(32); // no effect\par
+\tab d.GetDayOfMonth(dd);\par
+\tab if ( dd == 31)\par
+\tab\{\par
+\tab\tab file << "Passed test " << testNumber << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed test " << testNumber << endl;\par
+\tab\}\par
+\par
+\tab file << endl;\par
+\par
+\par
+\par
+\par
+\par
+\par
+\tab // TEST the getters and setters\par
+\par
+\tab Date anotherDate;\par
+\par
+\tab unsigned certainMonth = 8;\par
+\tab unsigned dayOMonth    = 14;\par
+\tab unsigned fineYear     = 2011;\par
+\tab anotherDate.SetMonth(      certainMonth );\par
+\tab anotherDate.SetDayOfMonth( dayOMonth    );\par
+\tab anotherDate.SetYear(       fineYear     );\par
+\par
+\tab unsigned certainMonth2 = 1;\par
+\tab unsigned dayOMonth2    = 1;\par
+\tab unsigned fineYear2     = 2001;\par
+\tab anotherDate.GetMonth(       certainMonth2 );\par
+\tab anotherDate.GetDayOfMonth(  dayOMonth2    );\par
+\tab anotherDate.GetYear(        fineYear2     );\par
+\par
+\tab if (\par
+\tab\tab\tab certainMonth == certainMonth2 &&\par
+\tab\tab\tab dayOMonth    == dayOMonth2 &&\par
+\tab\tab\tab fineYear     == fineYear2\par
+\tab\tab )\par
+\tab\{\par
+\tab\tab file << "Passed getters and setters  test "  << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << "Failed getters and setters  test "  << endl;\par
+\tab\}\par
+\par
+\tab file << endl;\par
+\par
+\par
+\par
+\tab file << "End of unit tests for the date class." << endl;\fs22\par
+\pard\li568\sa200\sl276\slmult1\par
+\par
+\line\b\line\pard\sa200\sl276\slmult1\highlight6 (5) MemberType class\highlight0\tab\tab\b0 (from testMemberType.cpp  Unit Test)\b\line\pard\li568\sa200\sl276\slmult1\b0\par
+\pard\li568\sl240\slmult1\fs16\par
+\tab // SETTERS / GETTERS\par
+\par
+\tab string   fname;\par
+\tab string   lname;\par
+\tab long     uid;\par
+\tab string\tab  authority;\par
+\par
+\tab fname = "firstName";\par
+\tab lname = "lastName";\par
+\tab uid   = 1234;\par
+\tab authority = "patron";\par
+\par
+\tab MemberType m;\par
+\par
+\par
+\par
+\par
+\tab // SET\par
+\tab m.setFirstName(fname);\par
+\tab m.setLastName(lname);\par
+\tab m.setUserId(uid);\par
+\tab m.setAuthority(authority);\par
+\par
+\tab string   fname2;\par
+\tab string   lname2;\par
+\tab long     uid2;\par
+\tab string\tab  authority2;\par
+\par
+\par
+\par
+\tab // GET\par
+\tab m.getFirstName(fname2);\par
+\tab m.getLastName(lname2);\par
+\tab m.getUserId(uid2);\par
+\tab m.getAuthority(authority2);\par
+\par
+\tab //fname = "A";\par
+\tab //lname = "A";\par
+\tab //uid2 = 5454;\par
+\tab //authority2 = "staff";\par
+\par
+\tab if (\par
+\tab\tab fname     == fname2 &&\par
+\tab\tab lname     == lname2 &&\par
+\tab\tab uid       == uid2   &&\par
+\tab\tab authority == authority2\par
+\tab\tab )\par
+\tab\{\par
+\tab\tab file << " MemberType unit test - getters and setters: Passed." << endl;\par
+\tab\}\par
+\tab else\par
+\tab\{\par
+\tab\tab file << " MemberType unit test - getters and setters: FAILED." << endl;\par
+\tab\}\fs44\par
+\pard\sa200\sl276\slmult1\line\par
+\fs32\par
+End of Unit Tests.\par
+\fs22\par
+\par
+}
+ 

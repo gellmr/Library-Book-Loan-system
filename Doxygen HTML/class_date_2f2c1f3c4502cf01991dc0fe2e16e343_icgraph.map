@@ -1,0 +1,11 @@
+<area shape="rect" href="$class_date.html#48f9391f4e563f90d192c4d74faf947f" title="Copy Constructor ." alt="" coords="219,5,301,32">
+<area shape="rect" href="$class_date.html#f3f05ad710a8bc39fb52f1b8a0cb753d" title="Override for the assignment operator ." alt="" coords="204,56,316,83">
+<area shape="rect" href="$class_date.html#b3b88e4f9dea05652cb0b71ab3bb70e0" title="Override for the equality comparison operator ." alt="" coords="200,107,320,133">
+<area shape="rect" href="$class_lib_system.html#449fa1ae7213e237299837c2c4559170" title="Display the menu subsystem for borrowing book(s). &#160;." alt="" coords="401,157,601,184">
+<area shape="rect" href="$class_lib_system.html#0a2b403c0178f3c824cdde221f3f1ea2" title="Given a loan object, renew its borrowed / due dates. &#160;." alt="" coords="168,208,352,235">
+<area shape="rect" href="$class_loans_loader.html#cbb37bc3ef9ab34d5c88cc771a6f5a11" title="Save a vector of loans to a text file. ." alt="" coords="177,259,343,285">
+<area shape="rect" href="$class_lib_system.html#6d2e86f74eed0eb80710bb549bbd8a92" title="Respond to the user&#39;s choice of main menu option. &#160;." alt="" coords="652,208,860,235">
+<area shape="rect" href="$class_lib_system.html#bcc248ccc9e9953047534ba330a259b9" title="Run the library system. &#160;." alt="" coords="909,208,1019,235">
+<area shape="rect" href="$main_8cpp.html#e66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1068,208,1116,235">
+<area shape="rect" href="$class_lib_system.html#5fc7243261c1b6fcb958f01f289658b4" title="Show the menu subsystem for renewing book(s). &#160;." alt="" coords="424,208,579,235">
+<area shape="rect" href="$class_lib_system.html#0634c63d19fd9bdd39b1ce23fa4bd4d4" title="Save the current state of the system (to text files on the local hard drive). &#160;." alt="" coords="407,259,596,285">

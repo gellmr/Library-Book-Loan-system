@@ -1,0 +1,8 @@
+<area shape="rect" href="$class_member_type.html#bcecfc2ea8580ea5d560839cb6ce328e" title="Get whether this Member is staff or a patron of the Library. &#160;." alt="" coords="195,5,368,32">
+<area shape="rect" href="$class_member_type.html#32ae50b9a1c3bac88e355f2f74e91626" title="Get the first name of this member. &#160;." alt="" coords="191,56,372,83">
+<area shape="rect" href="$class_member_type.html#214233621270d1aaffc071fd72484fb3" title="Get the last name of this member. &#160;." alt="" coords="191,107,372,133">
+<area shape="rect" href="$class_member_type.html#754c56afdaaf759040bec720c28fd71d" title="Get the user ID of this member. &#160;." alt="" coords="201,157,361,184">
+<area shape="rect" href="$class_member_type.html#f7055e4911402871e01bab6f1127af5a" title="Set whether this Member is staff or a patron of the Library. &#160;." alt="" coords="195,208,368,235">
+<area shape="rect" href="$class_member_type.html#d0e52304e545afd89fce9e2a51743357" title="Set the first name of this Member. &#160;." alt="" coords="191,259,372,285">
+<area shape="rect" href="$class_member_type.html#e233351ae0e357aa5e934d25e7e0fb5c" title="Set the last name of this Member. &#160;." alt="" coords="191,309,372,336">
+<area shape="rect" href="$class_member_type.html#f9f147795927b0ae56239b722ee42a68" title="Set the user ID of this Member. &#160;." alt="" coords="201,360,361,387">

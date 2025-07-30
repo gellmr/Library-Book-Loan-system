@@ -20,7 +20,7 @@ This is a C++ application, which allows the user to browse, borrow and return li
          Homer     Simpson          16      patron
   
   LIBRARY SYSTEM
-  ---------------------------------
+  
   Please enter a user ID to log in.
 
 ### If you enter 12 and press RETURN, you will see the following screen.

@@ -111,7 +111,6 @@ Press 4
 (MAIN MENU) -> CHECK CURRENT LOANS
 ----------------------------------
 
-
 ITEM (1)
 
    Book details:
@@ -145,7 +144,6 @@ ITEM (2)
       borrower ID : 12
       Borrowed    : 30 July 2025
       Due         : 30 August 2025
-
 
 Press ENTER to return to the main menu.
 ```

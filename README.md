@@ -68,10 +68,10 @@ Please enter the title of a volume that you would like to borrow,
 Or RETURN, to cancel.
 ```
 
-Type 'The Awakening' and press RETURN
+Type 'The Infinity' and press RETURN
 
 ```
-You entered The Awakening  isbn: 666
+You entered The Infinity  isbn: 333
 
    Press (1) to borrow this book,
    Or RETURN, to cancel.
@@ -132,16 +132,16 @@ ITEM (1)
 ITEM (2)
 
    Book details:
-      Title        : The Awakening
+      Title        : The Infinity
       #Authors     : 1
-       Author 1    : Sprue Nanning,
+       Author 1    : Terry Nightingale,
       Publisher    : Oreilly
-      ISBN         : 666
-      Price        : 66.50
-      Copies       : 1
+      ISBN         : 333
+      Price        : 33.50
+      Copies       : 2
 
    Loan details:
-      ISBN        : 666
+      ISBN        : 333
       borrower ID : 12
       Borrowed    : 30 July 2025
       Due         : 30 August 2025
